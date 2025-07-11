@@ -1,0 +1,149 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 192 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+CHARGE
+TABLE F
+F T 155 AR 1
+5W
+PART 1
+BAS I C DATA
+PROJ , HE , M79 5
+FUZE , PD , M739 A1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+R
+E
+FS FOR
+DFS
+DR
+F
+T IME
+AZ IMUTH
+A
+L
+GRAZE
+PER
+PER
+O
+OF
+CORRECT IONS
+N
+E
+BURST
+10 M
+1 M I L
+R
+FL I GHT
+G
+V
+DEC
+D ELEV
+K
+DR I F T
+CW
+E
+FUZE
+HOB
+( CORR
+OF
+M582
+TO L )
+1 KNOT
+M
+M I L
+M
+M I L
+SEC
+M I L
+M I L
+6000
+1255. 5
+64. 4
+0. 04
+18
+4
+64. 4
+101. 0
+1. 54
+5900
+1261. 1
+64. 5
+0. 04
+18
+4
+64. 5
+104. 8
+1. 59
+5800
+1266. 5
+64. 7
+0. 04
+19
+4
+64. 7
+108. 8
+1. 65
+5700
+1271. 8
+64. 8
+0. 04
+19
+4
+64. 8
+113. 3
+1. 71
+5600
+1277. 0
+65. 0
+0. 04
+20
+65. 0
+118. 1
+1. 78
+5500
+1282. 0
+65. 1
+0. 04
+20
+65. 1
+123. 5
+1. 86
+5400
+1286.9
+65. 3
+0. 04
+21
+65. 3
+129 . 4
+5300
+1291. 6
+65. 4
+0. 04
+21
+65. 4
+135.9
+5200
+1296. 2
+65. 6
+0. 04
+65. 6
+143. 1
+5115
+1300. 0
+154
+(U//FOUO)
+(U//FOUO)
+(U//FOUO)
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

@@ -1,0 +1,69 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 18 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXXII
+wind components, Table C, the directions of the azimuth correc-
+tions, right and left, are indicated by the letters R and L.
+Table
+Column
+F 
+10-19
+Range Correction Factors – Corrections to range to com-
+pensate for the effects of nonstandard conditions. Although 
+the corrections given in columns 10 through 19 are tabu-
+lated for a unit decrease and a unit increase in the nonstan-
+dard conditions, they are actually mean values based on an 
+expected decrease and increase in the nonstandard condi-
+tions.  The columns of corrections for an increase in the 
+nonstandard conditions are shaded to aid in identification. 
+A tail wind is considered to be an increase in wind for this 
+purpose.
+10-11
+Muzzle Velocity 1 M/S (Range Corrections for a Decrease 
+(Increase) of One Meter per Second in Muzzle Velocity) – 
+Corrections to range to compensate for variations from the 
+standard muzzle velocity that appears on the title page for 
+each charge.
+12-13
+Range Wind 1 Knot (Range Corrections for a Head Wind 
+(Tail Wind) of 1 Knot). In computing a standard trajectory 
+it is assumed that no wind is blowing.  In the wind compo-
+nent's table, Table C, a head wind is designated by the 
+symbol H and a tail wind, by T.  If the symbol is H, enter 
+column 12 and if T, enter column 13.
+14-15 
+Air Temp 1 Pct (Range Corrections for a Decrease (In-
+crease) of One Percent in Air Temperature).  Standard air 
+temperature at sea level is 15.0 degrees Centigrade (59.0° 
+F).   On the absolute scale, the equivalent temperature is 
+288.2 degrees Kelvin.   Standard air temperatures at finite 
+heights above sea level have been established as part of the 
+ICAO standard atmosphere (U.S. standard atmosphere, 
+1962).  Temperature at any given height is recorded and 
+transmitted as a percent of the standard absolute tempera-
+ture for that height.   The drag that a projectile encounters 
+is a function of Mach number (ratio of the velocity of the 
+projectile to the velocity of sound).  The drag varies appre-
+ciably with Mach number, particularly near Mach one 
+where the velocity of the projectile and the velocity of 
+sound are equal. Since the velocity of sound is a function of 
+air temperature, it follows that changes in air temperature 
+will change the Mach number, thereby changing the drag 
+and consequently the range.   This effect is sometimes 
+called the elasticity effect.  It should not be confused with 
+the distinctly separate effect which air temperature produc-
+es through its influence on air density.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

@@ -1,0 +1,65 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 19 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXXIII
+Table      
+    Column
+F 
+ 16-17 
+Air Density 1 Pct (Range Corrections for a Decrease (In-
+crease) of 1 Percent in Air Density).  Standard air density at 
+sea level is 1225.0 grams per cubic meter.  Standard air 
+densities at finite heights above sea level have been estab-
+lished as part of the ICAO Standard Atmosphere (U.S. 
+Standard Atmosphere, 1962).  Air density at any given 
+height is recorded and transmitted as a percent of the stan-
+dard absolute density for that height.  Air density affects 
+the drag exerted upon the projectile.  Therefore, changes in 
+air density will change the drag and consequently the range.
+18-19
+Proj Wt of 1 Sq (4 Sq Std) (Range Corrections for a De-
+crease (Increase) of 1 Square in Projectile Weight).  The 
+standard projectile weight for this table is 103.5 pounds. 
+Correction should be made for difference in projectile 
+weight as indicated by the number of squares.  A decrease 
+in projectile weight increases the muzzle velocity, the ef-
+fect of which is to lengthen the range.  But it also decreases 
+the ballistic coefficient, the effect of which is to shorten the 
+range.  The combined effect may be either an increase or a 
+decrease in range depending upon which individual effect 
+is predominant.  Under certain conditions these two effects 
+tend to cancel each other.
+G 
+Supplementary Data – A table of supplementary data containing probable 
+error information and certain trajectory elements.
+Column
+1 
+Range  (See Table F)
+2 
+Elevation  (See Table F)
+3–7 
+Probable Errors – These probable errors were computed 
+from uncorrected firing data obtained from all available 
+sources and are estimates of the average probable errors. 
+On a given occasion the observed probable error may be 
+greater or less than the average probable error in accor-
+dance with the laws of probability.  The probable errors in-
+dicate the round-to-round variation of a single piece fired 
+on a single occasion and do not reflect the variation of the 
+mean of either a single piece fired on different occasions or 
+different pieces fired on the same occasion.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

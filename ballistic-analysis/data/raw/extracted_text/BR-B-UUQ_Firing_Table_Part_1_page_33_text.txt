@@ -1,0 +1,55 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 33 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+LXIX
+Explanation of Probability Table
+A.
+The probability table consists of an argument, T, for entering the table and a
+body of figures representing areas under the normal probability curve.
+B.
+The first vertical column gives the value of T for entry to the nearest one-tenth
+of a probable error (PE).  The top horizontal line permits entry using a value of T ex-
+pressed to the nearest one-hundredth.
+Example 1.
+It is desired to locate the area under the normal curve that corres-
+ponds to 1.4 probable errors.  Locate 1.4 in the first vertical column.  Since the required 
+number of probable errors is expressed only to the nearest one-tenth, read the answer 
+.3275 in the horizontal column headed 0.00.  Had the value of T been expressed as 1.44, 
+the answer would appear as .3343 in the column headed 0.04.
+C.
+The figures in the body of the table represent areas under the normal probabili-
+ty curve.  The entire area under this curve is assumed to be 1.  Therefore, the probability 
+that an event will occur within the given limits is represented by some corresponding area 
+under the curve.  Thus, the probability that an artillery round will fall somewhere be-
+tween the true center of impact and a point one probable error beyond this center is 
+represented by the hatched area in the figure below. This area, compared to the total area 
+under the curve, is one fourth or 0.25.
+Therefore, each decimal fraction in the body of the table expresses the probability that the 
+deviation, in one direction only, of the point of impact of a projectile from an adjusting 
+point will not be greater than T probable errors.
+Example 2.
+An artillery piece registers upon an adjusting point.  The probable 
+error is 30 meters.  One round is fired under the adjusted conditions.  The probability that 
+this round will fall beyond the adjusting point, a distance not to exceed 30 meters, is de-
+termined as follows.  One probable error is equal to 30 meters.  Enter the table using a 
+value of T equal to 1.0.  In the column headed 0.00 the probability is found to be 0.2500 
+for an impact beyond the target (over) not to exceed 30 meters.  The same probability 
+would be read for an impact short of the target (short) not to exceed 30 meters.  The 
+probability of a round falling on either side of the adjusting point within 30 meters cannot
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

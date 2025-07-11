@@ -1,0 +1,40 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 70 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+CHARGE
+ FT 155-AR-1
+3G
+ PART 1
+PROJ, HE, M795
+FUZE, MTSQ, M582
+CORRECTIONS
+FROM
+TO
+  2.0
+11.9
+-0.1
+12.0
+25.1
+-0.2
+25.2
+39.2
+-0.3
+39.3
+46.5
+-0.4
+32
+FUZE M582
+FUZE SETTING
+TABLE K
+CORRECTIONS TO FUZE SETTING OF FUZE, MTSQ, M582
+FOR FUZE, MTSQ, M564
+FUZE SETTING
+(U//FOUO)
+(U//FOUO)
+(U//FOUO)
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

@@ -1,0 +1,48 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 11 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+FOOTNOTES 
+(d)
+(U//FOUO) Cannon, M284 has a dual condemnation criteria of 2650 EFC (fatigue)
+rounds or 0.105 inches wear (6.205 inches bore diameter) taken at 41.75 inches forward of
+the rear face of the tube, whichever comes first.
+6.
+(U) Fatigue
+The process of metal fatigue is caused by the repeated application of firing pressures or 
+high stresses from various charges and sustained tube temperatures.  Each round of am-
+munition fired through a cannon reduces tube life due to metal degradation.
+For cannon tubes condemned based on metal fatigue, the effective full charge rounds 
+fired will be used to determine remaining tube life and will be used as the foremost criteria 
+in condemnation.  However, all tubes should be constantly checked and possibly con-
+demned based on the presence of cracks, defects and other damage which make the can-
+non unsafe to fire (as determined from borescope, comparison checks and visual inspec-
+tion).  Detailed information on fatigue and tube condemnation is contained in TM 
+9-1000-202-14.  This applies to the following cannons: 
+ M284 
+. 
+7.
+(U) Erosion
+The process of erosion removes metal from the bore surface of a cannon by the move-
+ment of hot gases and residues generated from the burning of the propellant as well as by the 
+passing of the projectile through the bore.  Detailed information on erosion is contained in 
+TM 9-1000-202-14.
+For tubes exhibiting uniform wear, the loss in muzzle velocity may be estimated from 
+measurements taken in accordance with instructions given in the publication referred to 
+above.  For tubes exhibiting irregular wear, as evidenced principally by stripped lands, the 
+loss in muzzle velocity cannot be estimated reliably from wear measurements.  The latter 
+tubes will continue to fire accurately but their velocity levels should be inferred from 
+registration firings or determined using a muzzle velocity measuring device.
+XXII
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

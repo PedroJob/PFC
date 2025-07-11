@@ -1,0 +1,27 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 7 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+V 
+2.
+(U) General Information
+A. Projectile, HE, M795.  The tables in Part 1 are based on range firings of projec- 
+tile, HE, M795 conducted at Yuma Proving Ground, Arizona during the period of April 
+1998 to May 1998 as reported in Firing Record YPG # 98-050, Volume I of II, dated 
+June 29, 2000.  Trajectory computations were performed with a modified point mass 
+trajectory model described in BRL Memorandum Report 1314.  The aerodynamic data 
+used in the reduction of the firing tables test results and the ballistic data obtained are 
+recorded in FCI 155-AR-A, dated 27 August 2009. FT 155-AR-2, published separately, 
+contains tables for charges 7R and the Modular Artillery Charge System.
+B. Howitzers.  All firing table data for Projectile, HE M795 given in Part 1 of
+FT 155-AR-1 are applicable to Howitzer M109A5. 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

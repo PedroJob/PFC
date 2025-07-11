@@ -1,0 +1,84 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 26 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XL
+Thus, the introduction to the sample message indicates that it is a ballistic meteorological 
+message applicable to surface fire in octant 1 of the globe.  Specifically, it is applicable to 
+an area whose center is latitude 34.4 degrees north and whose longitude is 98.3 degrees 
+west.  The message is valid on the 12th of the month starting at 1430 Greenwich Mean 
+Time.  The atmospheric pressure at the MDP, which is 370 meters above mean sea level, 
+is 101.3 percent of standard at sea level.
+(2)
+Body of the Message.  All 16 lines of the body of the message have the
+same form.  The initial line is identified by the first pair of digits (00) and deals with 
+surface meteorological conditions.  Each subsequent line furnishes information applicable 
+to firings for which the maximum ordinate of the trajectory is equal to the standard height 
+associated with the first pair of digits of the line.  These two digits are the line number 
+indicating the standard height relative to the MDP.
+Line Number
+Standard Height
+meters
+00
+0 
+01
+200
+02
+500
+03
+1000
+04
+1500
+05
+2000
+06
+3000
+07
+4000
+08
+5000
+09
+6000
+10
+8000
+11
+10000
+12
+12000
+13
+14000
+14
+16000
+15
+18000
+Because all of the lines in the body of the message have the same form, a detailed expla-
+nation of one line will serve as a sample for any line.  Assume that the appropriate line 
+number is 05.
+ (a)
+Group 1  052822
+05
+is the line number indicating the standard height relative
+to the MDP.
+28
+is the direction from which the ballistic wind is blowing, 
+measured clockwise from geographic north, transmitted in 
+hundreds of mils.
+22
+is the ballistic wind speed to the nearest knot.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

@@ -1,0 +1,30 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 28 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XLII
+C.
+Corrections to Temperature and Density.  As stated, the heights referred to in
+the preceding discussion are heights above the MDP, which is the horizontal plane con-
+taining the meteorological station.  Ballistic air temperature and ballistic air density must 
+be corrected for the difference in altitude between the battery and the MDP.  The neces-
+sary corrections are contained in Table D, Temperature and Density Corrections.  The 
+ballistic wind, however, is not corrected for the difference in altitude of the battery and 
+MDP because, unlike air temperature and air density, wind does not follow a predictable 
+variation with height.
+D.
+Types of Meteorological Message.  Currently, two types of met messages
+(identified as 2 or 3) are in use.  Each is adapted to a certain large class of guns and am-
+munition.  The type 2 message is for surface-to-air firing, and the type 3 message is for 
+surface-to-surface firing.  For this firing table use type 3 message at all elevations of all 
+charges.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

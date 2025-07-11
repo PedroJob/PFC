@@ -1,0 +1,69 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 21 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXXV
+   Table
+Column
+G 
+9 
+Cot Angle of Fall (Cotangent of Angle of Fall) – The trigo-
+nometric function of the angle of fall given in column 8.
+10
+TML VEL (Terminal Velocity) – The speed of the projec-
+tile at the level point.
+11
+MO (Maximum Ordinate) – The maximum height above 
+the gun of the trajectory fired, under standard conditions, to 
+the range in column 1.
+12-13
+Comp Site for Angle of Site (Complementary Angle of Site 
+for Each Mil Angle of Site)  The correction which must 
+be added algebraically to each mil of actual angle of site to 
+compensate for the nonrigidity of the trajectory.  Use col-
+umn 12 when the target is above the gun in altitude, column 
+13 when the target is below the gun.
+H 
+Rotation – Range (Corrections to Range, in Meters, to Compensate for the 
+Rotation of the Earth)  Range corrections required to offset the effects on 
+range produced by the rotation of the earth.
+I 
+Rotation – Azimuth (Corrections to Azimuth, in Mils, to Compensate for 
+the Rotation of the Earth)  Azimuth corrections required to offset the ef-
+fects on deflection produced by the rotation of the earth.
+J 
+Fuze Correction Factors  Corrections to fuze setting to compensate for 
+the effects of nonstandard conditions.  The data are arranged in 11 col-
+umns, each of which gives values for the various quantities as a function 
+of the fuze setting tabulated in the first column.  Since all of these quanti-
+ties have been computed for a target at the level point, Table J applies 
+primarily to targets at the same altitude as the gun.  Sufficient information 
+may be found to produce a graze burst on a target at the level point.  For 
+targets above or below the level point, Table J is entered with a fuze set-
+ting determined from Table F. The exact procedure to follow for either 
+case is explained in the examples of problems in paragraph 11.  Although 
+the corrections given in columns 2 through 11 are tabulated for a unit de-
+crease and a unit increase in the nonstandard conditions, they are actually 
+mean values based on an expected decrease and increase in the nonstan-
+dard conditions.  A tail wind is considered to be an increase in wind for 
+this purpose.
+Following is a listing of the contents of Table J.  For a detailed explana-
+tion of columns 2 through 11, see the explanation of columns 10 through 
+19 in Table F.  In these explanations, substitute fuze corrections for range 
+corrections.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

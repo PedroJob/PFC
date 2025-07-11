@@ -1,0 +1,63 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 6 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+IV 
+MT
+Mechanical Time
+MTSQ
+Mechanical Time and Superquick
+MV
+Muzzle Velocity
+MVV
+Muzzle Velocity Variation
+N/A
+Not Applicable
+PCT
+Percent
+PD
+Point Detonating
+PROJ
+Projectile
+PROX
+Proximity
+PE
+Probable Error
+PT
+Propellant Temperature
+PW
+Projectile Weight
+QE
+Quadrant Elevation
+R
+Range, Right, Rocket
+RB
+Range to Burst
+RW
+Range Wind
+SP
+Self-Propelled
+SQ
+Square
+T
+Tail Wind
+TB
+Time to Burst
+TEMP
+Air Temperature
+TM
+Technical Manual
+TML VEL
+Terminal Velocity
+VE
+Velocity Error
+WT
+Weight
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

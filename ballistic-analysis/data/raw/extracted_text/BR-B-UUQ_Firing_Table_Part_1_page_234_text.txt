@@ -1,0 +1,97 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 234 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+CHARGE
+TABLE F
+F T 155 AR 1
+6W
+PART 1
+BAS I C DATA
+PROJ , HE , M79 5
+FUZE , PD , M739 A1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+R
+E
+FS FOR
+DFS
+DR
+F
+T IME
+AZ IMUTH
+A
+L
+GRAZE
+PER
+PER
+O
+OF
+CORRECT IONS
+N
+E
+BURST
+10 M
+1 M I L
+R
+FL I GHT
+G
+V
+DEC
+D ELEV
+K
+DR I F T
+CW
+E
+FUZE
+HOB
+( CORR
+OF
+M582
+TO L )
+1 KNOT
+M
+M I L
+M
+M I L
+SEC
+M I L
+M I L
+6500
+1285. 0
+72. 5
+0. 03
+26
+72. 5
+141. 2
+6400
+1288. 8
+72. 7
+0. 03
+27
+72. 7
+147. 2
+6300
+1292. 4
+72. 8
+0. 03
+72. 8
+153. 7
+6227
+1295. 0
+19 6
+(U//FOUO)
+(U//FOUO)
+(U//FOUO)
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

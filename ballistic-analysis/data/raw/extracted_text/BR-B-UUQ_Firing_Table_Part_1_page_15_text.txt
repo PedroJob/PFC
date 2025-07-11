@@ -1,0 +1,71 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 15 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXIX
+8.
+(U) Explanation of Tables
+Firing tables contain data based on standard and nonstandard trajectories for a 
+given weapon and combination of projectile, fuze and propelling charge.  A standard 
+trajectory fired at a given elevation is one theoretically existing under arbitrarily chosen 
+conditions of weather and materiel.  A nonstandard trajectory is one existing under 
+conditions of weather and materiel differing from the arbitrarily chosen standard 
+conditions.  Standard firing data and the corrections needed to compensate for significant 
+variations from standard conditions may be determined from the firing tables.  The 
+following variations from standard conditions were used in preparing the firing tables.
+Muzzle Velocity (decrease and increase)
+10 m/s
+Range Wind (head and tail)
+50 knots
+Cross Wind (left and right)
+50 knots
+Ballistic Air Temperature (decrease and increase)
+10 percent
+Ballistic Air Density (decrease and increase)
+10 percent
+Projectile Weight (decrease and increase)
+1 square
+Angle of Site (+ site and - site)
+50 mils
+The ranges in the tables are distances along the surface of a sphere concentric with the 
+earth and passing through the muzzle of the tube.  The point at which the descending 
+branch of the trajectory intersects this concentric sphere is designated the level point.  
+Targets at zero height are at the level point.  Other targets are considered to be directly 
+above or below the level point.
+In general, plus signs are omitted from these tables.  Therefore, numbers without signs 
+are to be considered positive.  Negative quantities are shown with a minus sign.
+A.
+The contents of these tables are described below.
+Table
+A  
+Line Number of Meteorological Message  Digits which represent prese-
+lected standard heights. The height zones represented by the line numbers 
+are given as a function of quadrant elevation.  If quadrant elevation is 
+known, or can be reasonably inferred, Table A should be used for line 
+number.  Otherwise, line number may be obtained from Table B as a func-
+tion of range and height of target above gun.
+B  
+Complementary Range Line Number  Range corrections corresponding 
+to the complementary angle of site, and line numbers of the meteorologi-
+cal message.  The range corrections are tabulated as a function of range 
+and height of target above the gun.  For a target at some height other than 
+zero, the complementary range correction is added to the chart range to 
+obtain a range to be used for entering Table F.  The line number is tabu-
+lated in the margins of the table.  Each particular line number is applicable 
+to all target points lying between the heavy dividing lines containing that 
+number.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

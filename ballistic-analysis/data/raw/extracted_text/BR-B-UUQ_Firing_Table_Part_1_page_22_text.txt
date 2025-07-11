@@ -1,0 +1,44 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 22 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXXVI
+  Table     
+Column
+J 
+1 
+FS (Fuze Setting)
+2-3
+Muzzle Velocity 1 M/S (Fuze Corrections for a Decrease 
+(Increase) of 1 Meter per Second in Muzzle Velocity)
+4-5
+Range Wind 1 Knot (Fuze Corrections for a Head Wind 
+(Tail Wind) of 1 Knot)
+6-7
+Air Temp 1 Pct (Fuze Corrections for a Decrease (Increase) 
+of 1 Percent in Air Temperature)
+8-9
+Air Density 1 Pct (Fuze Corrections for a Decrease (In-
+crease) of 1 Percent in Air Density)
+10-11
+Proj Wt of 1 Sq (4 Sq Std) (Fuze Corrections for a De-
+crease (Increase) of 1 Square in Projectile Weight)
+K 
+ Corrections to Fuze Setting  The amount to be added to or subtracted 
+from the fuze setting of Fuze, MTSQ, M582 to obtain the fuze setting for 
+Fuze, MTSQ, M564.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

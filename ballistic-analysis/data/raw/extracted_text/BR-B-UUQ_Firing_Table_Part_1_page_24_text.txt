@@ -1,0 +1,74 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 24 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XXXVIII
+9.
+(U) Explanation of Meteorological Message
+A. Composition of Meteorological Message.  The ballistic met message as de-
+scribed in STANAG 4061 (Edition No. 3), 19 May 1969, is divided into two
+parts – the introduction containing, primarily, identification information and
+the body of the message containing meteorological information.  The intro-
+duction consists of two lines broken into four groups of letters and numbers
+and the body of the message consists of a sequence of up to sixteen lines, each
+broken into two groups of six digit numbers.  The various parts of a met mes-
+sage are explained as follows:
+ Sample Meteorological Message
+METB31
+344983  
+Introduction
+121450
+037013  
+002109
+945071  
+012205
+937079
+022318
+933082
+032419
+926084
+Body of message
+042620
+941075
+052822
+949065
+063123
+960051 
+(1) 
+Introduction
+(a)
+Group 1 METB31
+Met
+Indicates that the transmission is a meteorological message.
+B 
+Indicates that the message is a ballistic met message.
+3 
+Indicates that the message is for surface-to-surface fire.
+1 
+Indicates the octant of the globe in which the meteorological 
+message is applicable, and is numerically coded as follows:
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

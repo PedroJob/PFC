@@ -1,0 +1,75 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 9 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XX
+4. (U//FOUO) Projectile/Fuze Combinations and Mean Weights
+Projectile
+Fuze
+Fuze 
+Weights
+Weight of
+Fuzed Projectile (lb)
+Type
+Model
+3 sq
+4 sq
+5 sq
+HE, M795
+PD(a)
+M557
+M739
+M739A1
+2.2
+1.5
+1.5
+103.1
+102.4
+102.4
+104.2
+103.5
+103.5
+105.3
+104.6
+104.6
+MTSQ(b)
+M582
+M582A1
+M564
+1.5
+1.5
+2.1
+102.4
+102.4
+103.0
+103.5
+103.5
+104.1
+104.6
+104.6
+105.2
+ET(b)
+M767
+M767A1
+1.1
+1.1
+102.0
+102.0
+103.1
+103.1
+104.2
+104.2
+(a) These fuzes have two modes:  quick mode and delay mode.
+(b) These fuzes have a point detonating (PD) setting.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U//FOUO)
+(U//FOUO)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

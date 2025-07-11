@@ -1,0 +1,59 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 29 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XLIII 
+10. (U) Problem
+A.
+General.  Firing tables contain the data needed to determine the quadrant eleva- 
+tion and deflection that will produce detonation of the projectile at the target when firing 
+under all conditions of weather and materiel.  In the field, graphical equipment is utilized 
+in conjunction with these tables to increase the speed of fire.  The sample problem in 
+paragraph 11 illustrates the numerical solution of the fire problem and thus does not in-
+corporate the use of graphical equipment.
+B.
+Arithmetic Precision.  In the computation of the problem that follows, certain
+rules and principles affecting the arithmetic precision of the solution are stated or im-
+plied.  These are guidelines only.  Greater arithmetic precision could be achieved by more 
+stringent rules.  However, the improvement in the effectiveness of fire would generally 
+be negligible and certainly not justify the added complexity.  The following list presents 
+various rules and principles affecting the arithmetic precision.
+x 
+Interpolation in a given table cannot result in a value with more de-
+cimal places than the values listed in that table.
+x 
+Chart range to a target is normally determined to the nearest 10 me-
+ters and chart direction (deflection) to the nearest mil.
+x 
+The NATO met message describes wind to the nearest 100 mils of di-
+rection and to the nearest 1 knot of speed.  Computed values of the 
+chart direction of the wind, and the range and cross wind compo-
+nents, should be expressed to the nearest 100 mils and to the nearest 
+knot.
+x 
+The expression and application of a velocity variation from standard 
+should be to the nearest tenth of a meter per second.
+C.
+Round-off Rules
+(1)
+General.  When rounding off to the nearest whole number, round to the
+nearest even number when the value ends in 0.5; when rounding to the nearest tenth, 
+round to the nearest even tenth when the value ends in 0.05.  This same principle applies 
+to rounding off to the nearest ten and to the nearest hundred.  Round-off in the sample 
+problem is expressed by . 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

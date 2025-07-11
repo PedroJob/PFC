@@ -1,0 +1,83 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 248 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+CHARGE
+TABLE J
+F T 155 AR 1
+6W
+PART 1
+FUZE CORRECT ION FACTORS
+PROJ , HE , M79 5
+FUZE , MTSQ , M582
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+FS
+FUZE CORRECT IONS FOR
+MUZZLE
+RANGE
+A IR
+A IR
+PROJ WT
+VELOC I TY
+WI ND
+TEMP
+DENS I TY
+OF 1 SQ
+1 M / S
+1 KNOT
+1 PCT
+1 PCT
+( 4 SQ STD)
+DEC
+I NC
+HEAD
+TA I L
+DEC
+I NC
+DEC
+I NC
+DEC
+I NC
+70
+. 094 0. 094
+. 018 0. 021
+. 049 0. 056
+0. 103
+. 096
+0. 107
+. 110
+71
+. 096 0. 096
+. 019
+. 049 0. 056
+0. 105
+. 098
+0. 114
+. 116
+72
+. 099 0. 098
+. 022
+. 047 0. 055
+0. 109
+. 100
+0. 128
+. 128
+210
+(U//FOUO)
+(U//FOUO)
+(U//FOUO)
+UNCLASSIFIED//FOR OFFICIAL USE ONLY
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO

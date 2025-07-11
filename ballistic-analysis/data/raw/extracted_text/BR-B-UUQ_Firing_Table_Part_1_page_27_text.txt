@@ -1,0 +1,66 @@
+=== TEXTO EXTRAÍDO DA PÁGINA 27 ===
+PDF: BR-B-UUQ_Firing_Table_Part_1
+==================================================
+
+FT 155-AR-1 
+PART 1
+XLI
+(b)
+Group 2  949065
+949
+is the ballistic air temperature to the nearest 0.1 percent of
+standard.  When this value is 100 or greater, the initial di-
+git 1 is omitted.
+065
+is the ballistic air density to the nearest 0.1 percent of 
+standard.  When this value is 100 or greater, the initial di-
+git 1 is omitted.
+Thus, the applicable portion of the body of the meteorological message states that for a 
+trajectory whose maximum ordinate is 2000 meters, the ballistic wind is blowing from 
+2800 mils at 22 knots, the ballistic air temperature is 94.9 percent of standard and the 
+ballistic air density is 106.5 percent of standard.
+B.
+Ballistic Atmosphere.  As indicated above, each line of the body of the meteo-
+rological message contains the ballistic wind, ballistic air temperature and ballistic air 
+density for the indicated height.  When this height is zero, these quantities are the actual
+wind, air temperature and air density at the MDP.  For other heights, there are certain 
+effective mean values of the actual atmospheric structure, which are used in conjunction 
+with the data given in the firing table to determine the effects of the actual atmospheric 
+structure.  These mean values are computed, at the meteorological station, to apply to a 
+trajectory having a maximum ordinate exactly equal to a particular standard height.  For 
+firings where the maximum ordinate is not equal to one of the standard heights, it is suf-
+ficient to use the ballistic wind, temperature and density computed for that standard 
+height which is nearest to the maximum ordinate of the firing.
+A projectile following a trajectory whose maximum ordinate is equal to some particular 
+standard height passes through layers of the atmosphere where winds are blowing in var-
+ious directions and at various speeds.  The ballistic wind for this standard height is that 
+wind which is constant in speed and direction and which produces the same effect on the 
+range, height and deflection of the projectile as the actual wind.
+Definitions of ballistic air temperature and ballistic air density are essentially the same as 
+that of ballistic wind, but differ in that there are, in these cases, no deflection effects. 
+Trajectories for standard conditions are computed for an atmospheric structure in which 
+the air temperature and air density decrease with increasing height according to the laws 
+defining the ICAO Standard Atmosphere (U. S. Standard Atmosphere, 1962).  The ratio 
+of the actual air temperature to the standard air temperature, expressed as a percentage, is 
+called the relative air temperature.  Corresponding to any actual temperature structure, 
+there is a hypothetical temperature structure for which the relative air temperature is con-
+stant at all heights and which has the same effect on range as the actual structure.  This 
+constant relative air temperature is called the ballistic air temperature.  Similarly, the ratio 
+of the actual air density to the standard air density, expressed as a percentage, is called 
+the relative air density.  Corresponding to any actual density structure, there is a hypo-
+thetical density structure for which the relative air density is constant at all heights and 
+which has the same effect on range as the actual structure.  This constant relative air den-
+sity is called the ballistic air density.
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+UNCLASSIFIED//FOR OFFICIAL USE ONLY 
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+(U)
+
+
+==================================================
+FIM DO TEXTO EXTRAÍDO
