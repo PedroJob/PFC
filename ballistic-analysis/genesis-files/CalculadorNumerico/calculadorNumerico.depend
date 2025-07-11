@@ -1,0 +1,1996 @@
+# depslib dependency file v1.0
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1560885009 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	<string>
+	"../padroes/baseobject.h"
+	"./pesoDensidade/pesoDensidade.h"
+	"./pesoTemperatura/pesoTemperatura.h"
+
+1501262784 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1555072684 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.h
+
+1555072684 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.h
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.cpp
+	"atmosferaconstante.h"
+	<math.h>
+
+1560885009 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.h
+	"atmosfera.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1560885009 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1560885009 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1560885009 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.cpp
+	"pesoDensidade.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.cpp
+	"pesoDensidadeConstante.h"
+
+1555072684 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.h
+	"pesoDensidade.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.cpp
+	"pesoTemperatura.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.cpp
+	"pesoTemperaturaConstante.h"
+
+1555072684 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.h
+	"pesoTemperatura.h"
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.cpp
+	"vento.h"
+
+1555072684 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.h
+
+1555072684 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.cpp
+	"ventoConstante.h"
+
+1559426626 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.h
+	"vento.h"
+
+1562182129 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	<iostream>
+	<math.h>
+	<mathart.h>
+
+1562182324 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	<vector>
+	<string>
+	"../padroes/baseobject.h"
+	"../padroes/observable.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1544784267 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"../padroes/baseobject.h"
+
+1544790438 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1537817606 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"../padroes/baseobject.h"
+
+1555349902 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"../padroes/baseobject.h"
+
+1561638871 c:\users\fmce718\workspace\ballistickernelcpp\mathart\mathart.h
+	<math.h>
+	<string>
+	<sstream>
+	<tuple>
+
+1569415222 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorArrastoLinear.h"
+	"../coeficientes/coeficientesdao.h"
+
+1562182535 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.h
+	"calculadorAtmosferico.h"
+	"../coeficientes/coeficienteDragLinear.h"
+
+1569414804 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.h
+	"calculador.h"
+	"../projetil/projetil.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"../atmosfera/vento/vento.h"
+
+1555073025 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"../padroes/baseobject.h"
+
+1541896979 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.h
+	"coeficienteAerodinamico.h"
+
+1555077974 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"../padroes/baseobject.h"
+
+1543232984 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteAerodinamico.h"
+
+1495768522 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1569432121 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.cpp
+	<ctime>
+	<cstdlib>
+	"calculadorAtmosferico.h"
+	"../excecoes/ExceptionConvergence.h"
+	"../excecoes/ExceptionQuasiConvergence.h"
+	"../excecoes/ExceptionYawRepose.h"
+	"../excecoes/ExceptionOutOfBound.h"
+	"../excecoes/ExceptionTrajectory.h"
+	"../coeficientes/coeficientesdao.h"
+	<../../MathArt/mathart.h>
+	"../padroes/objstring.h"
+
+1501875216 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1569415222 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassa.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1562182605 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.h
+	"calculadorAtmosferico.h"
+	"../padroes/observable.h"
+	"../coeficientes/CoeficienteDrag.h"
+
+1555073842 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"coeficienteAerodinamico.h"
+
+1569415222 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado1990.h"
+
+1562182864 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.h
+	"CalculadorPontoMassaModificado.h"
+
+1568919561 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.h
+	"calculadorPontoMassa.h"
+	"../coeficientes/coeficienteDrag2.h"
+	"../coeficientes/coeficienteMagnusForce.h"
+	"../coeficientes/coeficienteNormal.h"
+	"../coeficientes/coeficienteOverturningMoment.h"
+	"../coeficientes/coeficienteOverturningMomentCubico.h"
+	"../coeficientes/coeficienteSpinDampingMoment.h"
+
+1555074031 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.h
+	"coeficienteAerodinamico.h"
+
+1541896978 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.h
+	"coeficienteAerodinamico.h"
+
+1555077974 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.h
+	"coeficienteAerodinamico.h"
+
+1541939793 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.h
+	"coeficienteAerodinamico.h"
+
+1541929414 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.h
+	"coeficienteAerodinamico.h"
+
+1541930888 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.h
+	"coeficienteAerodinamico.h"
+
+1562182390 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.cpp
+	"calculadorVacuo.h"
+	<math.h>
+	<../../MathArt/mathart.h>
+
+1562182372 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.h
+	"calculador.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1501160118 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.cpp
+	"elementosdisparo.h"
+
+1555350493 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1545405545 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1555077573 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"coeficienteDrag.h"
+
+1555077590 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.cpp
+	"coeficienteDrag2.h"
+
+1541927948 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.cpp
+	"coeficienteDragLinear.h"
+
+1541881708 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.cpp
+	"coeficienteMagnusForce.h"
+
+1555077974 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.cpp
+	"coeficienteNormal.h"
+
+1541928939 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.cpp
+	"coeficienteOverturningMoment.h"
+
+1541930129 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.cpp
+	"coeficienteOverturningMomentCubico.h"
+
+1555077974 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1555073503 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+
+1541930888 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.cpp
+	"coeficienteSpinDampingMoment.h"
+
+1562182652 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorArrastoLinear.h"
+	"calculador/calculadorPontoMassa.h"
+	"calculador/calculadorPontoMassaModificado.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"projetil/ProjetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1501261253 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1495768522 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1501875068 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.cpp
+	"objstring.h"
+
+1500309040 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.cpp
+	"Observable.h"
+
+1544790666 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1555072687 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.cpp
+	"projetil.h"
+
+1555073503 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"projetilDAO.h"
+
+1502301278 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1495768522 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1569415222 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1559237432 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1559299291 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionyawrepose.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1560885009 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	<string>
+	"../padroes/baseobject.h"
+	"./pesoDensidade/pesoDensidade.h"
+	"./pesoTemperatura/pesoTemperatura.h"
+
+1501262784 c:\workspace\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1555072684 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.h
+
+1555072684 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.h
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.cpp
+	"atmosferaconstante.h"
+	<math.h>
+
+1560885009 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1560885009 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1560885009 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1560885009 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.cpp
+	"pesoDensidade.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.cpp
+	"pesoDensidadeConstante.h"
+
+1555072684 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.h
+	"pesoDensidade.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.cpp
+	"pesoTemperatura.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.cpp
+	"pesoTemperaturaConstante.h"
+
+1555072684 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.h
+	"pesoTemperatura.h"
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.cpp
+	"vento.h"
+
+1555072684 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.h
+
+1555072684 source:c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.cpp
+	"ventoConstante.h"
+
+1559426626 c:\workspace\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.h
+	"vento.h"
+
+1562182129 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	<iostream>
+	<math.h>
+	<mathart.h>
+
+1562182324 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	<vector>
+	<string>
+	"../padroes/baseobject.h"
+	"../padroes/observable.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1544784267 c:\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"../padroes/baseobject.h"
+
+1544790438 c:\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1537817606 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"../padroes/baseobject.h"
+
+1555349902 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"../padroes/baseobject.h"
+
+1561638871 c:\workspace\ballistickernelcpp\mathart\mathart.h
+	<math.h>
+	<string>
+	<sstream>
+	<tuple>
+
+1569415222 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorArrastoLinear.h"
+	"../coeficientes/coeficientesdao.h"
+
+1562182535 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.h
+	"calculadorAtmosferico.h"
+	"../coeficientes/coeficienteDragLinear.h"
+
+1569414804 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.h
+	"calculador.h"
+	"../projetil/projetil.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"../atmosfera/vento/vento.h"
+
+1585151137 c:\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"../padroes/baseobject.h"
+
+1541896979 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.h
+	"coeficienteAerodinamico.h"
+
+1555077974 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"../padroes/baseobject.h"
+
+1543232984 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteAerodinamico.h"
+
+1495768522 c:\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1569415222 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassa.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1562182605 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.h
+	"calculadorAtmosferico.h"
+	"../padroes/observable.h"
+	"../coeficientes/CoeficienteDrag.h"
+
+1555073842 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"coeficienteAerodinamico.h"
+
+1501875216 c:\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1562182390 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.cpp
+	"calculadorVacuo.h"
+	<math.h>
+	<../../MathArt/mathart.h>
+
+1562182372 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.h
+	"calculador.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1501160118 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.cpp
+	"elementosdisparo.h"
+
+1555350493 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1545405545 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1555077573 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"coeficienteDrag.h"
+
+1555077590 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.cpp
+	"coeficienteDrag2.h"
+
+1555074031 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.h
+	"coeficienteAerodinamico.h"
+
+1541927948 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.cpp
+	"coeficienteDragLinear.h"
+
+1541881708 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.cpp
+	"coeficienteMagnusForce.h"
+
+1541896978 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.h
+	"coeficienteAerodinamico.h"
+
+1555077974 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.cpp
+	"coeficienteNormal.h"
+
+1555077974 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.h
+	"coeficienteAerodinamico.h"
+
+1541928939 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.cpp
+	"coeficienteOverturningMoment.h"
+
+1541939793 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.h
+	"coeficienteAerodinamico.h"
+
+1541930129 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.cpp
+	"coeficienteOverturningMomentCubico.h"
+
+1541929414 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.h
+	"coeficienteAerodinamico.h"
+
+1555077974 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1555073503 c:\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+
+1541930888 source:c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.cpp
+	"coeficienteSpinDampingMoment.h"
+
+1541930888 c:\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.h
+	"coeficienteAerodinamico.h"
+
+1562182652 source:c:\workspace\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorArrastoLinear.h"
+	"calculador/calculadorPontoMassa.h"
+	"calculador/calculadorPontoMassaModificado.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"projetil/ProjetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1568919561 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.h
+	"calculadorPontoMassa.h"
+	"../coeficientes/coeficienteDrag2.h"
+	"../coeficientes/coeficienteMagnusForce.h"
+	"../coeficientes/coeficienteNormal.h"
+	"../coeficientes/coeficienteOverturningMoment.h"
+	"../coeficientes/coeficienteOverturningMomentCubico.h"
+	"../coeficientes/coeficienteSpinDampingMoment.h"
+
+1501261254 c:\workspace\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1495768522 c:\workspace\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1501875068 source:c:\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.cpp
+	"objstring.h"
+
+1500309040 source:c:\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.cpp
+	"Observable.h"
+
+1544790666 source:c:\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1555072687 source:c:\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.cpp
+	"projetil.h"
+
+1555073503 source:c:\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"projetilDAO.h"
+
+1502301278 source:c:\workspace\ballistickernelcpp\calculadornumerico\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1495768522 source:c:\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1591207184 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1569415222 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado1990.h"
+
+1562182864 c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.h
+	"CalculadorPontoMassaModificado.h"
+
+1569440896 source:c:\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.cpp
+	<ctime>
+	<cstdlib>
+	"calculadorAtmosferico.h"
+	"../excecoes/ExceptionConvergence.h"
+	"../excecoes/ExceptionQuasiConvergence.h"
+	"../excecoes/ExceptionYawRepose.h"
+	"../excecoes/ExceptionOutOfBound.h"
+	"../excecoes/ExceptionTrajectory.h"
+	"../coeficientes/coeficientesdao.h"
+	<../../MathArt/mathart.h>
+	"../padroes/objstring.h"
+
+1559237432 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1559299291 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionyawrepose.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560456615 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionquasiconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560456615 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionquasiconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560697971 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionoutofbound.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560697971 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptionoutofbound.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1561916114 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptiontrajectory.h
+	<exception>
+
+1562097095 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptioninvaliduneveness.h
+	<exception>
+	"../calculador/elementosvoo.h"
+
+1562097095 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptioninvaliduneveness.h
+	<exception>
+	"../calculador/elementosvoo.h"
+
+1561916114 c:\workspace\ballistickernelcpp\calculadornumerico\excecoes\exceptiontrajectory.h
+	<exception>
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1560885009 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	<string>
+	"../padroes/baseobject.h"
+	"./pesoDensidade/pesoDensidade.h"
+	"./pesoTemperatura/pesoTemperatura.h"
+
+1501262784 c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1555072684 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.h
+
+1555072684 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.h
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.cpp
+	"atmosferaconstante.h"
+	<math.h>
+
+1560885009 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1560885009 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1560885009 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1560885009 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.cpp
+	"pesoDensidade.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.cpp
+	"pesoDensidadeConstante.h"
+
+1555072684 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.h
+	"pesoDensidade.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.cpp
+	"pesoTemperatura.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.cpp
+	"pesoTemperaturaConstante.h"
+
+1555072684 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.h
+	"pesoTemperatura.h"
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.cpp
+	"vento.h"
+
+1555072684 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.h
+
+1555072684 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.cpp
+	"ventoConstante.h"
+
+1559426626 c:\workspace\testes\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.h
+	"vento.h"
+
+1562182129 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	<iostream>
+	<math.h>
+	<mathart.h>
+
+1562182324 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	<vector>
+	<string>
+	"../padroes/baseobject.h"
+	"../padroes/observable.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1544784267 c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"../padroes/baseobject.h"
+
+1544790438 c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1537817606 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"../padroes/baseobject.h"
+
+1555349902 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"../padroes/baseobject.h"
+
+1561638871 c:\workspace\testes\ballistickernelcpp\mathart\mathart.h
+	<math.h>
+	<string>
+	<sstream>
+	<tuple>
+
+1569415222 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorArrastoLinear.h"
+	"../coeficientes/coeficientesdao.h"
+
+1562182535 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.h
+	"calculadorAtmosferico.h"
+	"../coeficientes/coeficienteDragLinear.h"
+
+1569414804 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.h
+	"calculador.h"
+	"../projetil/projetil.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"../atmosfera/vento/vento.h"
+
+1585151137 c:\workspace\testes\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"../padroes/baseobject.h"
+
+1541896979 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.h
+	"coeficienteAerodinamico.h"
+
+1555077974 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"../padroes/baseobject.h"
+
+1543232984 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteAerodinamico.h"
+
+1495768522 c:\workspace\testes\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1569440896 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.cpp
+	<ctime>
+	<cstdlib>
+	"calculadorAtmosferico.h"
+	"../excecoes/ExceptionConvergence.h"
+	"../excecoes/ExceptionQuasiConvergence.h"
+	"../excecoes/ExceptionYawRepose.h"
+	"../excecoes/ExceptionOutOfBound.h"
+	"../excecoes/ExceptionTrajectory.h"
+	"../coeficientes/coeficientesdao.h"
+	<../../MathArt/mathart.h>
+	"../padroes/objstring.h"
+
+1559237432 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptionconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560456615 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptionquasiconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1559299291 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptionyawrepose.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1560697971 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptionoutofbound.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1561916114 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptiontrajectory.h
+	<exception>
+
+1501875216 c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1569415222 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassa.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1562182605 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.h
+	"calculadorAtmosferico.h"
+	"../padroes/observable.h"
+	"../coeficientes/CoeficienteDrag.h"
+
+1555073842 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"coeficienteAerodinamico.h"
+
+1562097095 c:\workspace\testes\ballistickernelcpp\calculadornumerico\excecoes\exceptioninvaliduneveness.h
+	<exception>
+	"../calculador/elementosvoo.h"
+
+1569415222 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado1990.h"
+
+1562182864 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.h
+	"CalculadorPontoMassaModificado.h"
+
+1568919561 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.h
+	"calculadorPontoMassa.h"
+	"../coeficientes/coeficienteDrag2.h"
+	"../coeficientes/coeficienteMagnusForce.h"
+	"../coeficientes/coeficienteNormal.h"
+	"../coeficientes/coeficienteOverturningMoment.h"
+	"../coeficientes/coeficienteOverturningMomentCubico.h"
+	"../coeficientes/coeficienteSpinDampingMoment.h"
+
+1555074031 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.h
+	"coeficienteAerodinamico.h"
+
+1541896978 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.h
+	"coeficienteAerodinamico.h"
+
+1555077974 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.h
+	"coeficienteAerodinamico.h"
+
+1541939793 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.h
+	"coeficienteAerodinamico.h"
+
+1541929414 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.h
+	"coeficienteAerodinamico.h"
+
+1541930888 c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.h
+	"coeficienteAerodinamico.h"
+
+1562182390 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.cpp
+	"calculadorVacuo.h"
+	<math.h>
+	<../../MathArt/mathart.h>
+
+1562182372 c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.h
+	"calculador.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1501160118 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.cpp
+	"elementosdisparo.h"
+
+1555350493 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1545405545 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1555077573 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"coeficienteDrag.h"
+
+1555077590 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.cpp
+	"coeficienteDrag2.h"
+
+1541927948 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.cpp
+	"coeficienteDragLinear.h"
+
+1541881708 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.cpp
+	"coeficienteMagnusForce.h"
+
+1555077974 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.cpp
+	"coeficienteNormal.h"
+
+1541928939 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.cpp
+	"coeficienteOverturningMoment.h"
+
+1541930129 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.cpp
+	"coeficienteOverturningMomentCubico.h"
+
+1555077974 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1555073503 c:\workspace\testes\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+
+1541930888 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.cpp
+	"coeficienteSpinDampingMoment.h"
+
+1562182652 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorArrastoLinear.h"
+	"calculador/calculadorPontoMassa.h"
+	"calculador/calculadorPontoMassaModificado.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"projetil/ProjetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1501261254 c:\workspace\testes\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1495768522 c:\workspace\testes\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1501875068 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\objstring.cpp
+	"objstring.h"
+
+1500309040 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\observable.cpp
+	"Observable.h"
+
+1544790666 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1555072687 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\projetil\projetil.cpp
+	"projetil.h"
+
+1555073503 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"projetilDAO.h"
+
+1502301278 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1495768522 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1615111893 source:c:\workspace\testes\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	<string>
+	"../padroes/baseobject.h"
+	"./pesoDensidade/pesoDensidade.h"
+	"./pesoTemperatura/pesoTemperatura.h"
+
+1620247196 c:\pfc 2021\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.h
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.h
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.cpp
+	"atmosferaconstante.h"
+	<math.h>
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.h
+	"atmosfera.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.cpp
+	"pesoDensidade.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.cpp
+	"pesoDensidadeConstante.h"
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.h
+	"pesoDensidade.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.cpp
+	"pesoTemperatura.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.cpp
+	"pesoTemperaturaConstante.h"
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.h
+	"pesoTemperatura.h"
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.cpp
+	"vento.h"
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.h
+
+1620246988 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.cpp
+	"ventoConstante.h"
+
+1620246988 c:\pfc 2021\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.h
+	"vento.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	<iostream>
+	<math.h>
+	<mathart.h>
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	<vector>
+	<string>
+	"../padroes/baseobject.h"
+	"../padroes/observable.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"../padroes/baseobject.h"
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"../padroes/baseobject.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"../padroes/baseobject.h"
+
+1620247236 c:\pfc 2021\ballistickernelcpp\mathart\mathart.h
+	<math.h>
+	<string>
+	<sstream>
+	<tuple>
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorArrastoLinear.h"
+	"../coeficientes/coeficientesdao.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.h
+	"calculadorAtmosferico.h"
+	"../coeficientes/coeficienteDragLinear.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.h
+	"calculador.h"
+	"../projetil/projetil.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"../atmosfera/vento/vento.h"
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"../padroes/baseobject.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"../padroes/baseobject.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteAerodinamico.h"
+
+1620247214 c:\pfc 2021\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.cpp
+	<ctime>
+	<cstdlib>
+	"calculadorAtmosferico.h"
+	"../excecoes/ExceptionConvergence.h"
+	"../excecoes/ExceptionQuasiConvergence.h"
+	"../excecoes/ExceptionYawRepose.h"
+	"../excecoes/ExceptionOutOfBound.h"
+	"../excecoes/ExceptionTrajectory.h"
+	"../coeficientes/coeficientesdao.h"
+	<../../MathArt/mathart.h>
+	"../padroes/objstring.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptionconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptionquasiconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptionyawrepose.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptionoutofbound.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptiontrajectory.h
+	<exception>
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassa.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.h
+	"calculadorAtmosferico.h"
+	"../padroes/observable.h"
+	"../coeficientes/CoeficienteDrag.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\excecoes\exceptioninvaliduneveness.h
+	<exception>
+	"../calculador/elementosvoo.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.h
+	"calculadorPontoMassa.h"
+	"../coeficientes/coeficienteDrag2.h"
+	"../coeficientes/coeficienteMagnusForce.h"
+	"../coeficientes/coeficienteNormal.h"
+	"../coeficientes/coeficienteOverturningMoment.h"
+	"../coeficientes/coeficienteOverturningMomentCubico.h"
+	"../coeficientes/coeficienteSpinDampingMoment.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.h
+	"coeficienteAerodinamico.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado1990.h"
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.h
+	"CalculadorPontoMassaModificado.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.cpp
+	"calculadorVacuo.h"
+	<math.h>
+	<../../MathArt/mathart.h>
+
+1620247176 c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.h
+	"calculador.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.cpp
+	"elementosdisparo.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"coeficienteDrag.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.cpp
+	"coeficienteDrag2.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.cpp
+	"coeficienteDragLinear.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.cpp
+	"coeficienteMagnusForce.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.cpp
+	"coeficienteNormal.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.cpp
+	"coeficienteOverturningMoment.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.cpp
+	"coeficienteOverturningMomentCubico.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.cpp
+	"coeficienteSpinDampingMoment.h"
+
+1620247176 source:c:\pfc 2021\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorArrastoLinear.h"
+	"calculador/calculadorPontoMassa.h"
+	"calculador/calculadorPontoMassaModificado.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"projetil/ProjetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1620247198 c:\pfc 2021\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1620247232 c:\pfc 2021\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	<string>
+	"../padroes/baseobject.h"
+	"./pesoDensidade/pesoDensidade.h"
+	"./pesoTemperatura/pesoTemperatura.h"
+
+1620247196 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.h
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.h
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.cpp
+	"atmosferaconstante.h"
+	<math.h>
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaconstante.h
+	"atmosfera.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidade.cpp
+	"pesoDensidade.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.cpp
+	"pesoDensidadeConstante.h"
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesodensidade\pesodensidadeconstante.h
+	"pesoDensidade.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperatura.cpp
+	"pesoTemperatura.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.cpp
+	"pesoTemperaturaConstante.h"
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\pesotemperatura\pesotemperaturaconstante.h
+	"pesoTemperatura.h"
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.cpp
+	"vento.h"
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\vento\vento.h
+
+1620246988 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.cpp
+	"ventoConstante.h"
+
+1620246988 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\atmosfera\vento\ventoconstante.h
+	"vento.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	<iostream>
+	<math.h>
+	<mathart.h>
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	<vector>
+	<string>
+	"../padroes/baseobject.h"
+	"../padroes/observable.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"../padroes/baseobject.h"
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"../padroes/baseobject.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"../padroes/baseobject.h"
+
+1620247236 c:\users\gabri\desktop\pfc\ballistickernelcpp\mathart\mathart.h
+	<math.h>
+	<string>
+	<sstream>
+	<tuple>
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorArrastoLinear.h"
+	"../coeficientes/coeficientesdao.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorarrastolinear.h
+	"calculadorAtmosferico.h"
+	"../coeficientes/coeficienteDragLinear.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.h
+	"calculador.h"
+	"../projetil/projetil.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"../atmosfera/vento/vento.h"
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"../padroes/baseobject.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"../padroes/baseobject.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteAerodinamico.h"
+
+1620247214 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadoratmosferico.cpp
+	<ctime>
+	<cstdlib>
+	"calculadorAtmosferico.h"
+	"../excecoes/ExceptionConvergence.h"
+	"../excecoes/ExceptionQuasiConvergence.h"
+	"../excecoes/ExceptionYawRepose.h"
+	"../excecoes/ExceptionOutOfBound.h"
+	"../excecoes/ExceptionTrajectory.h"
+	"../coeficientes/coeficientesdao.h"
+	<../../MathArt/mathart.h>
+	"../padroes/objstring.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptionconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptionquasiconvergence.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptionyawrepose.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptionoutofbound.h
+	<exception>
+	"../calculador/elementosdisparo.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptiontrajectory.h
+	<exception>
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassa.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassa.h
+	"calculadorAtmosferico.h"
+	"../padroes/observable.h"
+	"../coeficientes/CoeficienteDrag.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\excecoes\exceptioninvaliduneveness.h
+	<exception>
+	"../calculador/elementosvoo.h"
+
+1632625020 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado.h"
+	"../coeficientes/coeficientesdao.h"
+	"../excecoes/exceptionInvalidUneveness.h"
+	<bits/stdc++.h>
+	"../fatoresdeajuste/fatordeajusteDAO.h"
+
+1632755452 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado.h
+	"calculadorPontoMassa.h"
+	"../coeficientes/coeficienteDrag2.h"
+	"../coeficientes/coeficienteMagnusForce.h"
+	"../coeficientes/coeficienteNormal.h"
+	"../coeficientes/coeficienteOverturningMoment.h"
+	"../coeficientes/coeficienteOverturningMomentCubico.h"
+	"../coeficientes/coeficienteSpinDampingMoment.h"
+	"../fatoresdeajuste/fatordeforma.h"
+	"../fatoresdeajuste/fatordelift.h"
+	"../fatoresdeajuste/fatordeyawdrag.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.h
+	"coeficienteAerodinamico.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.h
+	"coeficienteAerodinamico.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.cpp
+	<math.h>
+	<../../MathArt/mathart.h>
+	"calculadorPontoMassaModificado1990.h"
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorpontomassamodificado1990.h
+	"CalculadorPontoMassaModificado.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.cpp
+	"calculadorVacuo.h"
+	<math.h>
+	<../../MathArt/mathart.h>
+
+1620247176 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\calculadorvacuo.h
+	"calculador.h"
+	"elementosdisparo.h"
+	"elementosvoo.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.cpp
+	"elementosdisparo.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"coeficienteDrag.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag2.cpp
+	"coeficienteDrag2.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedraglinear.cpp
+	"coeficienteDragLinear.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientemagnusforce.cpp
+	"coeficienteMagnusForce.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientenormal.cpp
+	"coeficienteNormal.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmoment.cpp
+	"coeficienteOverturningMoment.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteoverturningmomentcubico.cpp
+	"coeficienteOverturningMomentCubico.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\coeficientes\coeficientespindampingmoment.cpp
+	"coeficienteSpinDampingMoment.h"
+
+1620247176 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorArrastoLinear.h"
+	"calculador/calculadorPontoMassa.h"
+	"calculador/calculadorPontoMassaModificado.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"projetil/ProjetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1620247198 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1620247232 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\objstring.cpp
+	"objstring.h"
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\observable.cpp
+	"Observable.h"
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\projetil\projetil.cpp
+	"projetil.h"
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"projetilDAO.h"
+
+1620247198 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1620247214 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1626142868 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeforma.cpp
+	"fatordeforma.h"
+
+1625953174 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeforma.h
+	"fatordeajuste.h"
+
+1633203539 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeajuste.h
+	"../padroes/baseobject.h"
+	<vector>
+
+1626730013 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordelift.cpp
+	"fatordelift.h"
+
+1626729533 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordelift.h
+	"fatordeajuste.h"
+
+1632171334 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeyawdrag.cpp
+	"fatordeyawdrag.h"
+
+1626729958 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeyawdrag.h
+	"fatordeajuste.h"
+
+1632748940 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\deletafator.cpp
+	"../fatoresdeajuste/deletaFator.h"
+	"../sql/sqlite3.h"
+	<stdio.h>
+
+1632748879 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\deletafator.h
+
+1633211511 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeajuste.cpp
+	"fatordeajuste.h"
+	<iostream>
+
+1632140845 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeajustedao.cpp
+	"fatordeajusteDAO.h"
+	"../projetil/projetil.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1632140757 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\fatordeajustedao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"fatordeajuste.h"
+
+1633214266 source:c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\calculadorfator.cpp
+	"calculadorFator.h"
+	<math.h>
+	"../mathart/mathart.h"
+	<string.h>
+	"../calculador/elementosvoo.h"
+
+1633378968 c:\users\gabri\desktop\pfc\ballistickernelcpp\calculadornumerico\fatoresdeajuste\calculadorfator.h
+	"../projetil/projetil.h"
+	"../calculador/calculadorPontoMassaModificado.h"
+	<iostream>
+	<vector>
+	"../sql/sqlite3.h"
+

@@ -1,0 +1,26 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidade.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidade.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidade.h" 1
+
+
+
+
+class PesoDensidade
+{
+    public:
+        PesoDensidade();
+         virtual double getPesoDensidade(double altura)=0;
+
+    protected:
+
+    private:
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidade.cpp" 2
+
+PesoDensidade::PesoDensidade()
+{
+
+}

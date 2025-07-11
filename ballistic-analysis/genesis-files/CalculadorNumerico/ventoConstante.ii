@@ -1,0 +1,61 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\ventoConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\ventoConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\ventoConstante.h" 1
+
+
+
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\vento.h" 1
+
+
+
+
+class Vento
+{
+    public:
+        Vento();
+        virtual ~Vento();
+
+        virtual double getVelocidadeVentoTransversal(double altura)=0;
+        virtual double getVelocidadeVentoLongitudinal(double altura)=0;
+
+
+    protected:
+
+    private:
+};
+# 5 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\ventoConstante.h" 2
+class VentoConstante: public Vento
+{
+    public:
+        VentoConstante();
+        VentoConstante(double velocidadeLongitudinal, double velocidadeTransversal);
+        double getVelocidadeVentoTransversal(double altura){return velocidadeTransversal;};
+        double getVelocidadeVentoLongitudinal(double altura){return velocidadeLongitudinal;};
+
+        void setVelocidadeVentoTransversal(double velocidadeTransversal){this->velocidadeTransversal = velocidadeTransversal;};
+        void setVelocidadeVentoLongitudinal(double velocidadeLongitudinal){this->velocidadeLongitudinal = velocidadeLongitudinal;};
+
+
+    protected:
+
+    private:
+        double velocidadeLongitudinal;
+        double velocidadeTransversal;
+
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\vento\\ventoConstante.cpp" 2
+
+VentoConstante::VentoConstante()
+{
+
+}
+
+VentoConstante::VentoConstante(double velocidadeLongitudinal, double velocidadeTransversal)
+{
+
+    this->velocidadeLongitudinal = velocidadeLongitudinal;
+    this->velocidadeTransversal = velocidadeTransversal;
+}

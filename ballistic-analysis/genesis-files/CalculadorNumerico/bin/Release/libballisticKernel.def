@@ -1,0 +1,510 @@
+EXPORTS
+    _ZN10BaseObjectD0Ev @1
+    _ZN10BaseObjectD1Ev @2
+    _ZN10Calculador10setPausadoEb @3
+    _ZN10Calculador18quantidadeAmostrasEd @4
+    _ZN10Calculador1vEddd @5
+    _ZN10Calculador27solucaoDiretaUltimoElementoEdddd @6
+    _ZN10Calculador4polyEdiPd @7
+    _ZN10Calculador5gravxEd @8
+    _ZN10Calculador5gravyEd @9
+    _ZN10Calculador5gravzEd @10
+    _ZN10Calculador5setVoEd @11
+    _ZN10Calculador8isParadoEv @12
+    _ZN10Calculador9isPausadoEv @13
+    _ZN10Calculador9setParadoEb @14
+    _ZN10CalculadorC1Ev @15
+    _ZN10CalculadorC2Ev @16
+    _ZN10Observable6notifyEv @17
+    _ZN10ObservableC1Ev @18
+    _ZN10ObservableC2Ev @19
+    _ZN10ObservableD0Ev @20
+    _ZN10ObservableD1Ev @21
+    _ZN11ProjetilDAO11getInstanceEv @22
+    _ZN11ProjetilDAO12geraProjetilER8Projetil @23
+    _ZN11ProjetilDAO13clearInstanceEv @24
+    _ZN11ProjetilDAO8callbackEPviPPcS2_ @25
+    _ZN11ProjetilDAO8instanceE @26 DATA
+    _ZN11ProjetilDAOC1Ev @27
+    _ZN11ProjetilDAOC2Ev @28
+    _ZN11ProjetilDAOD1Ev @29
+    _ZN11ProjetilDAOD2Ev @30
+    _ZN12AtmosferaIsa11temperaturaEd @31
+    _ZN12AtmosferaIsa13velocidadeSomEd @32
+    _ZN12AtmosferaIsa9densidadeEd @33
+    _ZN12AtmosferaIsaC1Ev @34
+    _ZN12AtmosferaIsaC2Ev @35
+    _ZN12AtmosferaIsaD0Ev @36
+    _ZN12AtmosferaIsaD1Ev @37
+    _ZN12CalculadorPM11setProjetilE8Projetil @38
+    _ZN12CalculadorPM13solucaoDiretaEddddb @39
+    _ZN12CalculadorPM14solucaoReversaEddd15TIPO_TRAJETORIAddd @40
+    _ZN12CalculadorPM1vEdd @41
+    _ZN12CalculadorPM3acxEdddd @42
+    _ZN12CalculadorPM3acyEddd @43
+    _ZN12CalculadorPMC1Ev @44
+    _ZN12CalculadorPMC2Ev @45
+    _ZN12CalculadorPMD0Ev @46
+    _ZN12CalculadorPMD1Ev @47
+    _ZN12ElementosVoo3setEdddddddddd @48
+    _ZN12ElementosVooC1Ev @49
+    _ZN12ElementosVooC2Ev @50
+    _ZN12ElementosVooD0Ev @51
+    _ZN12ElementosVooD1Ev @52
+    _ZN13AtmosferaIcao11temperaturaEd @53
+    _ZN13AtmosferaIcao13velocidadeSomEd @54
+    _ZN13AtmosferaIcao9densidadeEd @55
+    _ZN13AtmosferaIcaoC1Ev @56
+    _ZN13AtmosferaIcaoC2Ev @57
+    _ZN13AtmosferaIcaoD0Ev @58
+    _ZN13AtmosferaIcaoD1Ev @59
+    _ZN13ScreenPrinter6updateEv @60
+    _ZN13ScreenPrinterC1Ev @61
+    _ZN13ScreenPrinterC2Ev @62
+    _ZN15CalculadorVacuo13solucaoDiretaEddddb @63
+    _ZN15CalculadorVacuo14solucaoReversaEddd15TIPO_TRAJETORIA @64
+    _ZN15CalculadorVacuoC1Ev @65
+    _ZN15CalculadorVacuoC2Ev @66
+    _ZN15CalculadorVacuoD0Ev @67
+    _ZN15CalculadorVacuoD1Ev @68
+    _ZN15CoeficienteDragC1Ev @69
+    _ZN15CoeficienteDragC2Ev @70
+    _ZN15CoeficienteDragD0Ev @71
+    _ZN15CoeficienteDragD1Ev @72
+    _ZN15CoeficienteLiftC1Ev @73
+    _ZN15CoeficienteLiftC2Ev @74
+    _ZN15CoeficienteLiftD0Ev @75
+    _ZN15CoeficienteLiftD1Ev @76
+    _ZN15CoeficientesDAO11getInstanceEv @77
+    _ZN15CoeficientesDAO11setProjetilE13TIPO_PROJETIL @78
+    _ZN15CoeficientesDAO13clearInstanceEv @79
+    _ZN15CoeficientesDAO15geraCoeficienteER23CoeficienteAerodinamico @80
+    _ZN15CoeficientesDAO8callbackEPviPPcS2_ @81
+    _ZN15CoeficientesDAO8instanceE @82 DATA
+    _ZN15CoeficientesDAOC1Ev @83
+    _ZN15CoeficientesDAOC2Ev @84
+    _ZN15CoeficientesDAOD1Ev @85
+    _ZN15CoeficientesDAOD2Ev @86
+    _ZN16CoeficienteDrag2C1Ev @87
+    _ZN16CoeficienteDrag2C2Ev @88
+    _ZN16CoeficienteDrag2D0Ev @89
+    _ZN16CoeficienteDrag2D1Ev @90
+    _ZN16ElementosDisparo19setElementosDisparoEddb @91
+    _ZN16ElementosDisparoC1Eddb @92
+    _ZN16ElementosDisparoC1Ev @93
+    _ZN16ElementosDisparoC2Eddb @94
+    _ZN16ElementosDisparoC2Ev @95
+    _ZN16ElementosDisparoD0Ev @96
+    _ZN16ElementosDisparoD1Ev @97
+    _ZN18AtmosferaConstante11temperaturaEd @98
+    _ZN18AtmosferaConstante13velocidadeSomEd @99
+    _ZN18AtmosferaConstante9densidadeEd @100
+    _ZN18AtmosferaConstanteC1Ev @101
+    _ZN18AtmosferaConstanteC2Ev @102
+    _ZN18AtmosferaConstanteD0Ev @103
+    _ZN18AtmosferaConstanteD1Ev @104
+    _ZN19AtmosferaUsStandard11temperaturaEd @105
+    _ZN19AtmosferaUsStandard13velocidadeSomEd @106
+    _ZN19AtmosferaUsStandard9densidadeEd @107
+    _ZN19AtmosferaUsStandardC1Ev @108
+    _ZN19AtmosferaUsStandardC2Ev @109
+    _ZN19AtmosferaUsStandardD0Ev @110
+    _ZN19AtmosferaUsStandardD1Ev @111
+    _ZN21CalculadorAtmosferico11setProjetilE8Projetil @112
+    _ZN21CalculadorAtmosferico12setAtmosferaEP9Atmosfera @113
+    _ZN21CalculadorAtmosferico14solucaoReversaEddd15TIPO_TRAJETORIAddd @114
+    _ZN21CalculadorAtmosferico6limiteEdd @115
+    _ZN21CalculadorAtmosferico8vel_machEdd @116
+    _ZN21CalculadorAtmosfericoC1Ev @117
+    _ZN21CalculadorAtmosfericoC2Ev @118
+    _ZN21CalculadorAtmosfericoD2Ev @119
+    _ZN21CoeficienteDragLinearC1Ev @120
+    _ZN21CoeficienteDragLinearC2Ev @121
+    _ZN21CoeficienteDragLinearD0Ev @122
+    _ZN21CoeficienteDragLinearD1Ev @123
+    _ZN22CoeficienteMagnusForceC1Ev @124
+    _ZN22CoeficienteMagnusForceC2Ev @125
+    _ZN22CoeficienteMagnusForceD0Ev @126
+    _ZN22CoeficienteMagnusForceD1Ev @127
+    _ZN23CalculadorArrastoLinear11setProjetilE8Projetil @128
+    _ZN23CalculadorArrastoLinear13solucaoDiretaEddddb @129
+    _ZN23CalculadorArrastoLinear1vEdd @130
+    _ZN23CalculadorArrastoLinearC1Ev @131
+    _ZN23CalculadorArrastoLinearC2Ev @132
+    _ZN23CalculadorArrastoLinearD0Ev @133
+    _ZN23CalculadorArrastoLinearD1Ev @134
+    _ZN23CoeficienteAerodinamico8getValorEd @135
+    _ZN23CoeficienteAerodinamicoC1E16TIPO_COEFICIENTE @136
+    _ZN23CoeficienteAerodinamicoC2E16TIPO_COEFICIENTE @137
+    _ZN23CoeficienteAerodinamicoD0Ev @138
+    _ZN23CoeficienteAerodinamicoD1Ev @139
+    _ZN23CoeficienteAerodinamicoD2Ev @140
+    _ZN28CoeficienteOverturningMomentC1Ev @141
+    _ZN28CoeficienteOverturningMomentC2Ev @142
+    _ZN28CoeficienteOverturningMomentD0Ev @143
+    _ZN28CoeficienteOverturningMomentD1Ev @144
+    _ZN28CoeficienteSpinDampingMomentC1Ev @145
+    _ZN28CoeficienteSpinDampingMomentC2Ev @146
+    _ZN28CoeficienteSpinDampingMomentD0Ev @147
+    _ZN28CoeficienteSpinDampingMomentD1Ev @148
+    _ZN30CalculadorPontoMassaModificado11setProjetilE8Projetil @149
+    _ZN30CalculadorPontoMassaModificado12getDragTotalEdd @150
+    _ZN30CalculadorPontoMassaModificado12getLiftTotalEdd @151
+    _ZN30CalculadorPontoMassaModificado13solucaoDiretaEddddb @152
+    _ZN30CalculadorPontoMassaModificado14solucaoReversaEddd15TIPO_TRAJETORIAddd @153
+    _ZN30CalculadorPontoMassaModificado25getOverturningMomentTotalEdd @154
+    _ZN30CalculadorPontoMassaModificado2arEddddddddd @155
+    _ZN30CalculadorPontoMassaModificado3acxEdddddddddd @156
+    _ZN30CalculadorPontoMassaModificado3acyEddddddddd @157
+    _ZN30CalculadorPontoMassaModificado3aczEdddddddddd @158
+    _ZN30CalculadorPontoMassaModificado4ar_xEddddddddd @159
+    _ZN30CalculadorPontoMassaModificado4ar_yEddddddddd @160
+    _ZN30CalculadorPontoMassaModificado4ar_zEddddddddd @161
+    _ZN30CalculadorPontoMassaModificadoC1Ev @162
+    _ZN30CalculadorPontoMassaModificadoC2Ev @163
+    _ZN30CalculadorPontoMassaModificadoD0Ev @164
+    _ZN30CalculadorPontoMassaModificadoD1Ev @165
+    _ZN34CoeficienteOverturningMomentCubicoC1Ev @166
+    _ZN34CoeficienteOverturningMomentCubicoC2Ev @167
+    _ZN34CoeficienteOverturningMomentCubicoD0Ev @168
+    _ZN34CoeficienteOverturningMomentCubicoD1Ev @169
+    _ZN8Observer13setObservableEP10Observable @170
+    _ZN8Observer16removeObservableEP10Observable @171
+    _ZN8ObserverC1EP10Observable @172
+    _ZN8ObserverC1Ev @173
+    _ZN8ObserverC2EP10Observable @174
+    _ZN8ObserverC2Ev @175
+    _ZN8ProjetilC1E13TIPO_PROJETIL @176
+    _ZN8ProjetilC2E13TIPO_PROJETIL @177
+    _ZN8ProjetilD0Ev @178
+    _ZN8ProjetilD1Ev @179
+    _ZN9Atmosfera9getRoSoloEv @180
+    _ZN9AtmosferaC1Ev @181
+    _ZN9AtmosferaC2Ev @182
+    _ZN9ObjStringC1EPKc @183
+    _ZN9ObjStringC2EPKc @184
+    _ZN9ObjStringD0Ev @185
+    _ZN9ObjStringD1Ev @186
+    _ZNSt6vectorI12ElementosVooSaIS0_EE19_M_emplace_back_auxIJRKS0_EEEvDpOT_ @187
+    _ZNSt6vectorIdSaIdEE12emplace_backIJdEEEvDpOT_ @188
+    _ZNSt6vectorIdSaIdEE19_M_emplace_back_auxIJdEEEvDpOT_ @189
+    _ZNSt6vectorIdSaIdEEC1ERKS1_ @190
+    _ZTI10BaseObject @191 DATA
+    _ZTI10Calculador @192 DATA
+    _ZTI10Observable @193 DATA
+    _ZTI12AtmosferaIsa @194 DATA
+    _ZTI12CalculadorPM @195 DATA
+    _ZTI12ElementosVoo @196 DATA
+    _ZTI13AtmosferaIcao @197 DATA
+    _ZTI13ScreenPrinter @198 DATA
+    _ZTI15CalculadorVacuo @199 DATA
+    _ZTI15CoeficienteDrag @200 DATA
+    _ZTI15CoeficienteLift @201 DATA
+    _ZTI16CoeficienteDrag2 @202 DATA
+    _ZTI16ElementosDisparo @203 DATA
+    _ZTI18AtmosferaConstante @204 DATA
+    _ZTI19AtmosferaUsStandard @205 DATA
+    _ZTI21CalculadorAtmosferico @206 DATA
+    _ZTI21CoeficienteDragLinear @207 DATA
+    _ZTI22CoeficienteMagnusForce @208 DATA
+    _ZTI23CalculadorArrastoLinear @209 DATA
+    _ZTI23CoeficienteAerodinamico @210 DATA
+    _ZTI28CoeficienteOverturningMoment @211 DATA
+    _ZTI28CoeficienteSpinDampingMoment @212 DATA
+    _ZTI30CalculadorPontoMassaModificado @213 DATA
+    _ZTI34CoeficienteOverturningMomentCubico @214 DATA
+    _ZTI8Observer @215 DATA
+    _ZTI8Projetil @216 DATA
+    _ZTI9Atmosfera @217 DATA
+    _ZTI9ObjString @218 DATA
+    _ZTS10BaseObject @219 DATA
+    _ZTS10Calculador @220 DATA
+    _ZTS10Observable @221 DATA
+    _ZTS12AtmosferaIsa @222 DATA
+    _ZTS12CalculadorPM @223 DATA
+    _ZTS12ElementosVoo @224 DATA
+    _ZTS13AtmosferaIcao @225 DATA
+    _ZTS13ScreenPrinter @226 DATA
+    _ZTS15CalculadorVacuo @227 DATA
+    _ZTS15CoeficienteDrag @228 DATA
+    _ZTS15CoeficienteLift @229 DATA
+    _ZTS16CoeficienteDrag2 @230 DATA
+    _ZTS16ElementosDisparo @231 DATA
+    _ZTS18AtmosferaConstante @232 DATA
+    _ZTS19AtmosferaUsStandard @233 DATA
+    _ZTS21CalculadorAtmosferico @234 DATA
+    _ZTS21CoeficienteDragLinear @235 DATA
+    _ZTS22CoeficienteMagnusForce @236 DATA
+    _ZTS23CalculadorArrastoLinear @237 DATA
+    _ZTS23CoeficienteAerodinamico @238 DATA
+    _ZTS28CoeficienteOverturningMoment @239 DATA
+    _ZTS28CoeficienteSpinDampingMoment @240 DATA
+    _ZTS30CalculadorPontoMassaModificado @241 DATA
+    _ZTS34CoeficienteOverturningMomentCubico @242 DATA
+    _ZTS8Observer @243 DATA
+    _ZTS8Projetil @244 DATA
+    _ZTS9Atmosfera @245 DATA
+    _ZTS9ObjString @246 DATA
+    _ZTV10BaseObject @247 DATA
+    _ZTV10Calculador @248 DATA
+    _ZTV10Observable @249 DATA
+    _ZTV12AtmosferaIsa @250 DATA
+    _ZTV12CalculadorPM @251 DATA
+    _ZTV12ElementosVoo @252 DATA
+    _ZTV13AtmosferaIcao @253 DATA
+    _ZTV13ScreenPrinter @254 DATA
+    _ZTV15CalculadorVacuo @255 DATA
+    _ZTV15CoeficienteDrag @256 DATA
+    _ZTV15CoeficienteLift @257 DATA
+    _ZTV16CoeficienteDrag2 @258 DATA
+    _ZTV16ElementosDisparo @259 DATA
+    _ZTV18AtmosferaConstante @260 DATA
+    _ZTV19AtmosferaUsStandard @261 DATA
+    _ZTV21CalculadorAtmosferico @262 DATA
+    _ZTV21CoeficienteDragLinear @263 DATA
+    _ZTV22CoeficienteMagnusForce @264 DATA
+    _ZTV23CalculadorArrastoLinear @265 DATA
+    _ZTV23CoeficienteAerodinamico @266 DATA
+    _ZTV28CoeficienteOverturningMoment @267 DATA
+    _ZTV28CoeficienteSpinDampingMoment @268 DATA
+    _ZTV30CalculadorPontoMassaModificado @269 DATA
+    _ZTV34CoeficienteOverturningMomentCubico @270 DATA
+    _ZTV8Observer @271 DATA
+    _ZTV8Projetil @272 DATA
+    _ZTV9Atmosfera @273 DATA
+    _ZTV9ObjString @274 DATA
+    _get_output_format @275
+    fprintf @276
+    main @277
+    printf @278
+    sprintf @279
+    sqlite3_aggregate_context @280
+    sqlite3_aggregate_count @281
+    sqlite3_auto_extension @282
+    sqlite3_backup_finish @283
+    sqlite3_backup_init @284
+    sqlite3_backup_pagecount @285
+    sqlite3_backup_remaining @286
+    sqlite3_backup_step @287
+    sqlite3_bind_blob @288
+    sqlite3_bind_blob64 @289
+    sqlite3_bind_double @290
+    sqlite3_bind_int @291
+    sqlite3_bind_int64 @292
+    sqlite3_bind_null @293
+    sqlite3_bind_parameter_count @294
+    sqlite3_bind_parameter_index @295
+    sqlite3_bind_parameter_name @296
+    sqlite3_bind_text @297
+    sqlite3_bind_text16 @298
+    sqlite3_bind_text64 @299
+    sqlite3_bind_value @300
+    sqlite3_bind_zeroblob @301
+    sqlite3_bind_zeroblob64 @302
+    sqlite3_blob_bytes @303
+    sqlite3_blob_close @304
+    sqlite3_blob_open @305
+    sqlite3_blob_read @306
+    sqlite3_blob_reopen @307
+    sqlite3_blob_write @308
+    sqlite3_busy_handler @309
+    sqlite3_busy_timeout @310
+    sqlite3_cancel_auto_extension @311
+    sqlite3_changes @312
+    sqlite3_clear_bindings @313
+    sqlite3_close @314
+    sqlite3_close_v2 @315
+    sqlite3_collation_needed @316
+    sqlite3_collation_needed16 @317
+    sqlite3_column_blob @318
+    sqlite3_column_bytes @319
+    sqlite3_column_bytes16 @320
+    sqlite3_column_count @321
+    sqlite3_column_decltype @322
+    sqlite3_column_decltype16 @323
+    sqlite3_column_double @324
+    sqlite3_column_int @325
+    sqlite3_column_int64 @326
+    sqlite3_column_name @327
+    sqlite3_column_name16 @328
+    sqlite3_column_text @329
+    sqlite3_column_text16 @330
+    sqlite3_column_type @331
+    sqlite3_column_value @332
+    sqlite3_commit_hook @333
+    sqlite3_compileoption_get @334
+    sqlite3_compileoption_used @335
+    sqlite3_complete @336
+    sqlite3_complete16 @337
+    sqlite3_config @338
+    sqlite3_context_db_handle @339
+    sqlite3_create_collation @340
+    sqlite3_create_collation16 @341
+    sqlite3_create_collation_v2 @342
+    sqlite3_create_function @343
+    sqlite3_create_function16 @344
+    sqlite3_create_function_v2 @345
+    sqlite3_create_module @346
+    sqlite3_create_module_v2 @347
+    sqlite3_data_count @348
+    sqlite3_data_directory @349 DATA
+    sqlite3_db_cacheflush @350
+    sqlite3_db_config @351
+    sqlite3_db_filename @352
+    sqlite3_db_handle @353
+    sqlite3_db_mutex @354
+    sqlite3_db_readonly @355
+    sqlite3_db_release_memory @356
+    sqlite3_db_status @357
+    sqlite3_declare_vtab @358
+    sqlite3_enable_load_extension @359
+    sqlite3_enable_shared_cache @360
+    sqlite3_errcode @361
+    sqlite3_errmsg @362
+    sqlite3_errmsg16 @363
+    sqlite3_errstr @364
+    sqlite3_exec @365
+    sqlite3_expanded_sql @366
+    sqlite3_expired @367
+    sqlite3_extended_errcode @368
+    sqlite3_extended_result_codes @369
+    sqlite3_file_control @370
+    sqlite3_finalize @371
+    sqlite3_free @372
+    sqlite3_free_table @373
+    sqlite3_get_autocommit @374
+    sqlite3_get_auxdata @375
+    sqlite3_get_table @376
+    sqlite3_global_recover @377
+    sqlite3_initialize @378
+    sqlite3_interrupt @379
+    sqlite3_last_insert_rowid @380
+    sqlite3_libversion @381
+    sqlite3_libversion_number @382
+    sqlite3_limit @383
+    sqlite3_load_extension @384
+    sqlite3_log @385
+    sqlite3_malloc @386
+    sqlite3_malloc64 @387
+    sqlite3_memory_alarm @388
+    sqlite3_memory_highwater @389
+    sqlite3_memory_used @390
+    sqlite3_mprintf @391
+    sqlite3_msize @392
+    sqlite3_mutex_alloc @393
+    sqlite3_mutex_enter @394
+    sqlite3_mutex_free @395
+    sqlite3_mutex_leave @396
+    sqlite3_mutex_try @397
+    sqlite3_next_stmt @398
+    sqlite3_open @399
+    sqlite3_open16 @400
+    sqlite3_open_v2 @401
+    sqlite3_os_end @402
+    sqlite3_os_init @403
+    sqlite3_overload_function @404
+    sqlite3_prepare @405
+    sqlite3_prepare16 @406
+    sqlite3_prepare16_v2 @407
+    sqlite3_prepare_v2 @408
+    sqlite3_profile @409
+    sqlite3_progress_handler @410
+    sqlite3_randomness @411
+    sqlite3_realloc @412
+    sqlite3_realloc64 @413
+    sqlite3_release_memory @414
+    sqlite3_reset @415
+    sqlite3_reset_auto_extension @416
+    sqlite3_result_blob @417
+    sqlite3_result_blob64 @418
+    sqlite3_result_double @419
+    sqlite3_result_error @420
+    sqlite3_result_error16 @421
+    sqlite3_result_error_code @422
+    sqlite3_result_error_nomem @423
+    sqlite3_result_error_toobig @424
+    sqlite3_result_int @425
+    sqlite3_result_int64 @426
+    sqlite3_result_null @427
+    sqlite3_result_subtype @428
+    sqlite3_result_text @429
+    sqlite3_result_text16 @430
+    sqlite3_result_text16be @431
+    sqlite3_result_text16le @432
+    sqlite3_result_text64 @433
+    sqlite3_result_value @434
+    sqlite3_result_zeroblob @435
+    sqlite3_result_zeroblob64 @436
+    sqlite3_rollback_hook @437
+    sqlite3_set_authorizer @438
+    sqlite3_set_auxdata @439
+    sqlite3_set_last_insert_rowid @440
+    sqlite3_shutdown @441
+    sqlite3_sleep @442
+    sqlite3_snprintf @443
+    sqlite3_soft_heap_limit @444
+    sqlite3_soft_heap_limit64 @445
+    sqlite3_sourceid @446
+    sqlite3_sql @447
+    sqlite3_status @448
+    sqlite3_status64 @449
+    sqlite3_step @450
+    sqlite3_stmt_busy @451
+    sqlite3_stmt_readonly @452
+    sqlite3_stmt_status @453
+    sqlite3_strglob @454
+    sqlite3_stricmp @455
+    sqlite3_strlike @456
+    sqlite3_strnicmp @457
+    sqlite3_system_errno @458
+    sqlite3_table_column_metadata @459
+    sqlite3_temp_directory @460 DATA
+    sqlite3_test_control @461
+    sqlite3_thread_cleanup @462
+    sqlite3_threadsafe @463
+    sqlite3_total_changes @464
+    sqlite3_trace @465
+    sqlite3_trace_v2 @466
+    sqlite3_transfer_bindings @467
+    sqlite3_update_hook @468
+    sqlite3_uri_boolean @469
+    sqlite3_uri_int64 @470
+    sqlite3_uri_parameter @471
+    sqlite3_user_data @472
+    sqlite3_value_blob @473
+    sqlite3_value_bytes @474
+    sqlite3_value_bytes16 @475
+    sqlite3_value_double @476
+    sqlite3_value_dup @477
+    sqlite3_value_free @478
+    sqlite3_value_int @479
+    sqlite3_value_int64 @480
+    sqlite3_value_numeric_type @481
+    sqlite3_value_subtype @482
+    sqlite3_value_text @483
+    sqlite3_value_text16 @484
+    sqlite3_value_text16be @485
+    sqlite3_value_text16le @486
+    sqlite3_value_type @487
+    sqlite3_version @488 DATA
+    sqlite3_vfs_find @489
+    sqlite3_vfs_register @490
+    sqlite3_vfs_unregister @491
+    sqlite3_vmprintf @492
+    sqlite3_vsnprintf @493
+    sqlite3_vtab_config @494
+    sqlite3_vtab_on_conflict @495
+    sqlite3_wal_autocheckpoint @496
+    sqlite3_wal_checkpoint @497
+    sqlite3_wal_checkpoint_v2 @498
+    sqlite3_wal_hook @499
+    sqlite3_win32_is_nt @500
+    sqlite3_win32_mbcs_to_utf8 @501
+    sqlite3_win32_mbcs_to_utf8_v2 @502
+    sqlite3_win32_set_directory @503
+    sqlite3_win32_sleep @504
+    sqlite3_win32_unicode_to_utf8 @505
+    sqlite3_win32_utf8_to_mbcs @506
+    sqlite3_win32_utf8_to_mbcs_v2 @507
+    sqlite3_win32_utf8_to_unicode @508
+    sqlite3_win32_write_debug @509

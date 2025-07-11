@@ -1,0 +1,64 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosvoo.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosvoo.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosvoo.h" 1
+
+
+# 1 "C:/PFC 2021/ballisticKernelCpp/CalculadorNumerico/padroes/baseobject.h" 1
+
+
+
+
+class BaseObject
+{
+    public:
+        virtual ~BaseObject() {}
+};
+# 4 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosvoo.h" 2
+
+
+
+class ElementosVoo:public BaseObject
+{
+public:
+    void set(double anguloDisparo, double sx, double sy, double sz, double vx, double vy, double vz, double ar, double tempo);
+    void setArMax(double ar_max){this->ar_max = ar_max;}
+    void setAlturaMax(double altura_max){this->altura_max = altura_max;}
+    ElementosVoo( );
+
+    double anguloDisparo;
+    double sx, sy, sz;
+    double vx, vy, vz;
+    double altura_max, ar_max, ar, tempo;
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosvoo.cpp" 2
+
+
+ElementosVoo::ElementosVoo( )
+{
+    this->anguloDisparo = 0.0;
+    this->sx = 0.0;
+    this->sy = 0.0;
+    this->sz = 0.0;
+    this->vx = 0.0;
+    this->vy = 0.0;
+    this->vz = 0.0;
+    this->ar = 0.0;
+    this->altura_max = 0.0;
+    this->ar_max = 0.0;
+}
+
+void ElementosVoo::set(double anguloDisparo, double sx, double sy, double sz, double vx, double vy, double vz, double ar, double tempo)
+{
+    this->anguloDisparo = anguloDisparo;
+    this->sx = sx;
+    this->sy = sy;
+    this->sz = sz;
+    this->vx = vx;
+    this->vy = vy;
+    this->vz = vz;
+    this->ar = ar;
+    this->tempo = tempo;
+}

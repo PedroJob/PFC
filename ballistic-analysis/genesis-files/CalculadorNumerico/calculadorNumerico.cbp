@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="calculadorNumerico" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Headers/;Resources/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BallisticKernelDebug" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fPIC" />
+					<Add option="-g" />
+					<Add option="-pthread" />
+					<Add directory="projetil" />
+					<Add directory="padroes" />
+					<Add directory="include" />
+					<Add directory="calculador" />
+					<Add directory="coeficientes" />
+					<Add directory="atmosfera/vento" />
+					<Add directory="atmosfera/pesoDensidade" />
+					<Add directory="atmosfera/pesoTemperatura" />
+					<Add directory="excecoes" />
+				</Compiler>
+				<Linker>
+					<Add option="-fPIC" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ballisticKernel" imp_lib="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).a" def_file="$(TARGET_OUTPUT_DIR)$(TARGET_OUTPUT_BASENAME).def" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-pthread" />
+					<Add directory="projetil" />
+					<Add directory="padroes" />
+					<Add directory="include" />
+					<Add directory="calculador" />
+					<Add directory="coeficientes" />
+					<Add directory="atmosfera/vento" />
+					<Add directory="atmosfera/pesoDensidade" />
+					<Add directory="atmosfera/pesoTemperatura" />
+					<Add directory="excecoes" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-std=c11" />
+			<Add option="-fexceptions" />
+			<Add directory="../MathArt" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Sqlite" />
+		</Linker>
+		<Unit filename="atmosfera/atmosfera.cpp" />
+		<Unit filename="atmosfera/atmosfera.h" />
+		<Unit filename="atmosfera/atmosferaconstante.cpp" />
+		<Unit filename="atmosfera/atmosferaconstante.h" />
+		<Unit filename="atmosfera/atmosferaicao.cpp" />
+		<Unit filename="atmosfera/atmosferaicao.h" />
+		<Unit filename="atmosfera/atmosferaisa.cpp" />
+		<Unit filename="atmosfera/atmosferaisa.h" />
+		<Unit filename="atmosfera/atmosferausstandard.cpp" />
+		<Unit filename="atmosfera/atmosferausstandard.h" />
+		<Unit filename="atmosfera/pesoDensidade/pesoDensidade.cpp" />
+		<Unit filename="atmosfera/pesoDensidade/pesoDensidade.h" />
+		<Unit filename="atmosfera/pesoDensidade/pesoDensidadeConstante.cpp" />
+		<Unit filename="atmosfera/pesoDensidade/pesoDensidadeConstante.h" />
+		<Unit filename="atmosfera/pesoTemperatura/pesoTemperatura.cpp" />
+		<Unit filename="atmosfera/pesoTemperatura/pesoTemperatura.h" />
+		<Unit filename="atmosfera/pesoTemperatura/pesoTemperaturaConstante.cpp" />
+		<Unit filename="atmosfera/pesoTemperatura/pesoTemperaturaConstante.h" />
+		<Unit filename="atmosfera/tipoatmosfera.h" />
+		<Unit filename="atmosfera/vento/vento.cpp" />
+		<Unit filename="atmosfera/vento/vento.h" />
+		<Unit filename="atmosfera/vento/ventoConstante.cpp" />
+		<Unit filename="atmosfera/vento/ventoConstante.h" />
+		<Unit filename="calculador/calculador.cpp" />
+		<Unit filename="calculador/calculador.h" />
+		<Unit filename="calculador/calculadorArrastoLinear.cpp" />
+		<Unit filename="calculador/calculadorArrastoLinear.h" />
+		<Unit filename="calculador/calculadorAtmosferico.cpp" />
+		<Unit filename="calculador/calculadorAtmosferico.h" />
+		<Unit filename="calculador/calculadorPontoMassa.cpp" />
+		<Unit filename="calculador/calculadorPontoMassa.h" />
+		<Unit filename="calculador/calculadorPontoMassaModificado.cpp" />
+		<Unit filename="calculador/calculadorPontoMassaModificado.h" />
+		<Unit filename="calculador/calculadorPontoMassaModificado1990.cpp" />
+		<Unit filename="calculador/calculadorPontoMassaModificado1990.h" />
+		<Unit filename="calculador/calculadorVacuo.cpp" />
+		<Unit filename="calculador/calculadorVacuo.h" />
+		<Unit filename="calculador/elementosdisparo.cpp" />
+		<Unit filename="calculador/elementosdisparo.h" />
+		<Unit filename="calculador/elementosvoo.cpp" />
+		<Unit filename="calculador/elementosvoo.h" />
+		<Unit filename="coeficientes/coeficienteAerodinamico.cpp" />
+		<Unit filename="coeficientes/coeficienteAerodinamico.h" />
+		<Unit filename="coeficientes/coeficienteDrag.cpp" />
+		<Unit filename="coeficientes/coeficienteDrag.h" />
+		<Unit filename="coeficientes/coeficienteDrag2.cpp" />
+		<Unit filename="coeficientes/coeficienteDrag2.h" />
+		<Unit filename="coeficientes/coeficienteDragLinear.cpp" />
+		<Unit filename="coeficientes/coeficienteDragLinear.h" />
+		<Unit filename="coeficientes/coeficienteMagnusForce.cpp" />
+		<Unit filename="coeficientes/coeficienteMagnusForce.h" />
+		<Unit filename="coeficientes/coeficienteNormal.cpp" />
+		<Unit filename="coeficientes/coeficienteNormal.h" />
+		<Unit filename="coeficientes/coeficienteOverturningMoment.cpp" />
+		<Unit filename="coeficientes/coeficienteOverturningMoment.h" />
+		<Unit filename="coeficientes/coeficienteOverturningMomentCubico.cpp" />
+		<Unit filename="coeficientes/coeficienteOverturningMomentCubico.h" />
+		<Unit filename="coeficientes/coeficienteSpinDampingMoment.cpp" />
+		<Unit filename="coeficientes/coeficienteSpinDampingMoment.h" />
+		<Unit filename="coeficientes/coeficientesdao.cpp" />
+		<Unit filename="coeficientes/coeficientesdao.h" />
+		<Unit filename="excecoes/exceptionConvergence.h" />
+		<Unit filename="excecoes/exceptionOutOfBound.h" />
+		<Unit filename="excecoes/exceptionQuasiConvergence.h" />
+		<Unit filename="excecoes/exceptionTrajectory.h" />
+		<Unit filename="excecoes/exceptionYawRepose.h" />
+		<Unit filename="fatoresdeajuste/calculadorFator.cpp" />
+		<Unit filename="fatoresdeajuste/calculadorFator.h" />
+		<Unit filename="fatoresdeajuste/deletaFator.cpp" />
+		<Unit filename="fatoresdeajuste/deletaFator.h" />
+		<Unit filename="fatoresdeajuste/fatordeajuste.cpp" />
+		<Unit filename="fatoresdeajuste/fatordeajuste.h" />
+		<Unit filename="fatoresdeajuste/fatordeajusteDAO.cpp" />
+		<Unit filename="fatoresdeajuste/fatordeajusteDAO.h" />
+		<Unit filename="fatoresdeajuste/fatordeforma.cpp" />
+		<Unit filename="fatoresdeajuste/fatordeforma.h" />
+		<Unit filename="fatoresdeajuste/fatordelift.cpp" />
+		<Unit filename="fatoresdeajuste/fatordelift.h" />
+		<Unit filename="fatoresdeajuste/fatordeyawdrag.cpp" />
+		<Unit filename="fatoresdeajuste/fatordeyawdrag.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="padroes/baseobject.h" />
+		<Unit filename="padroes/objstring.cpp" />
+		<Unit filename="padroes/objstring.h" />
+		<Unit filename="padroes/observable.cpp" />
+		<Unit filename="padroes/observable.h" />
+		<Unit filename="padroes/observer.cpp" />
+		<Unit filename="padroes/observer.h" />
+		<Unit filename="projetil/projetil.cpp" />
+		<Unit filename="projetil/projetil.h" />
+		<Unit filename="projetil/projetilDAO.cpp" />
+		<Unit filename="projetil/projetilDAO.h" />
+		<Unit filename="resource/coeficientes.s3db" />
+		<Unit filename="resource/fatores.s3db" />
+		<Unit filename="resource/projetil.s3db" />
+		<Unit filename="screenprinter.cpp" />
+		<Unit filename="screenprinter.h" />
+		<Unit filename="sql/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sql/sqlite3.h" />
+		<Unit filename="sql/sqlite3ext.h" />
+		<Unit filename="sqlite3ext.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

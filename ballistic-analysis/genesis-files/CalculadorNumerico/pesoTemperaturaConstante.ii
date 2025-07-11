@@ -1,0 +1,60 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperaturaConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperaturaConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperaturaConstante.h" 1
+
+
+
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperatura.h" 1
+
+
+
+
+class PesoTemperatura
+{
+    public:
+        PesoTemperatura();
+        virtual double getPesoTemperatura(double altura)=0;
+
+    protected:
+
+    private:
+};
+# 5 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperaturaConstante.h" 2
+
+
+class PesoTemperaturaConstante : public PesoTemperatura
+{
+    public:
+        PesoTemperaturaConstante();
+        PesoTemperaturaConstante(double peso);
+        double getPesoTemperatura(double altura);
+        void setPesoTemperatura(double peso){this->peso = peso;};
+
+
+    protected:
+
+    private:
+        double peso;
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperaturaConstante.cpp" 2
+
+PesoTemperaturaConstante::PesoTemperaturaConstante()
+{
+
+    peso =1.0;
+}
+
+
+PesoTemperaturaConstante::PesoTemperaturaConstante(double peso)
+{
+
+    this->peso = peso;
+}
+
+double PesoTemperaturaConstante::getPesoTemperatura(double altura)
+{
+    return peso;
+}

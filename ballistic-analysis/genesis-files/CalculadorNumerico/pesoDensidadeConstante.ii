@@ -1,0 +1,58 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidadeConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidadeConstante.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidadeConstante.h" 1
+
+
+
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidade.h" 1
+
+
+
+
+class PesoDensidade
+{
+    public:
+        PesoDensidade();
+         virtual double getPesoDensidade(double altura)=0;
+
+    protected:
+
+    private:
+};
+# 5 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidadeConstante.h" 2
+
+class PesoDensidadeConstante: public PesoDensidade
+{
+    public:
+        PesoDensidadeConstante();
+        PesoDensidadeConstante(double peso);
+        double getPesoDensidade(double altura);
+        void setPesoDensidade(double peso){this->peso = peso;};
+
+    protected:
+
+    private:
+        double peso;
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoDensidade\\pesoDensidadeConstante.cpp" 2
+
+PesoDensidadeConstante::PesoDensidadeConstante()
+{
+
+    peso = 1.0;
+}
+
+PesoDensidadeConstante::PesoDensidadeConstante(double peso)
+{
+    this->peso = peso;
+}
+
+
+double PesoDensidadeConstante::getPesoDensidade(double altura)
+{
+
+    return peso;
+}

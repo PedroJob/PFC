@@ -1,0 +1,441 @@
+# depslib dependency file v1.0
+1467637798 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1500233978 c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosfera.h
+	"..\padroes\baseobject.h"
+
+1501262784 c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\baseobject.h
+
+1467638690 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1458231112 c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1459860090 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1459640712 c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1464294444 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1459640712 c:\users\fmce718\workspace\codeblocks\ballistickernel\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1502300185 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\calculador.cpp
+	"calculador.h"
+	"../coeficientes/coeficientesdao.h"
+	<iostream>
+	<math.h>
+
+1501849486 c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\calculador.h
+	"../coeficientes/CoeficienteDrag.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"elementosvoo.h"
+	"elementosdisparo.h"
+	"..\padroes\baseobject.h"
+	"..\projetil\projetil.h"
+
+1497013819 c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficientedrag.h
+	"CoeficienteAerodinamico.h"
+
+1500233976 c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"..\padroes\baseobject.h"
+
+1501267831 c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\elementosvoo.h
+	"..\padroes\baseobject.h"
+
+1501160249 c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\elementosdisparo.h
+	"..\padroes\baseobject.h"
+
+1501511358 c:\users\fmce718\workspace\codeblocks\ballistickernel\projetil\projetil.h
+	<string>
+	"..\padroes\baseobject.h"
+
+1501240446 c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteaerodinamico.h"
+
+1495768522 c:\users\fmce718\workspace\codeblocks\ballistickernel\sql\sqlite3.h
+	<stdarg.h>
+
+1501160118 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\elementosfisparo.cpp
+	"elementosdisparo.h"
+
+1501267928 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1497989104 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1497028901 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficientedrag.cpp
+	"CoeficienteDrag.h"
+
+1505332087 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1501273344 c:\users\fmce718\workspace\codeblocks\ballistickernel\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../Projetil/projetil.h"
+
+1502303080 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorpm.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"Projetil/projetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1501848759 c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\calculadorpm.h
+	"calculador.h"
+	"../padroes/observable.h"
+
+1501266629 c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\observable.h
+	<list>
+	"observer.h"
+	"..\padroes\baseobject.h"
+
+1501269195 c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\observer.h
+	"observable.h"
+
+1501261253 c:\users\fmce718\workspace\codeblocks\ballistickernel\screenprinter.h
+	"./padroes/observer.h"
+
+1495768522 c:\users\fmce718\workspace\codeblocks\ballistickernel\sqlite3.h
+	<stdarg.h>
+
+1500309040 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\observable.cpp
+	"Observable.h"
+
+1501270227 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1501271624 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\projetil\projetil.cpp
+	"projetil.h"
+
+1505332087 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"ProjetilDAO.h"
+
+1495768522 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+
+1502303031 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\calculador\calculadorpm.cpp
+	<math.h>
+	"calculadorpm.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+
+1501875216 c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1501875068 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\padroes\objstring.cpp
+	"objstring.h"
+
+1502301278 source:c:\users\fmce718\workspace\codeblocks\ballistickernel\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1467641398 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.cpp
+	"atmosfera.h"
+
+1500237578 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosfera.h
+	"..\padroes\baseobject.h"
+
+1501266384 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\baseobject.h
+
+1467642290 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.cpp
+	"atmosferaicao.h"
+	<math.h>
+
+1458234712 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaicao.h
+	"atmosfera.h"
+
+1459863690 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.cpp
+	"atmosferaisa.h"
+	<math.h>
+
+1459644312 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferaisa.h
+	"atmosfera.h"
+
+1464298044 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.cpp
+	"atmosferausstandard.h"
+	<math.h>
+
+1459644312 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\atmosfera\atmosferausstandard.h
+	"atmosfera.h"
+
+1502303785 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.cpp
+	"calculador.h"
+	"../coeficientes/coeficientesdao.h"
+	<iostream>
+	<math.h>
+
+1501898214 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculador.h
+	"../coeficientes/CoeficienteDrag.h"
+	"../atmosfera/atmosfera.h"
+	"../atmosfera/atmosferaicao.h"
+	"../atmosfera/atmosferaisa.h"
+	"../atmosfera/atmosferausstandard.h"
+	"elementosvoo.h"
+	"elementosdisparo.h"
+	"..\padroes\baseobject.h"
+	"..\projetil\projetil.h"
+
+1497017419 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.h
+	"CoeficienteAerodinamico.h"
+
+1500237576 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.h
+	<vector>
+	"..\padroes\baseobject.h"
+
+1501271431 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.h
+	"..\padroes\baseobject.h"
+
+1501163849 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosdisparo.h
+	"..\padroes\baseobject.h"
+
+1501514958 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.h
+	<string>
+	"..\padroes\baseobject.h"
+
+1501244046 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.h
+	<vector>
+	"../sql/sqlite3.h"
+	"../projetil/projetil.h"
+	"coeficienteaerodinamico.h"
+
+1495772122 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.h
+	<stdarg.h>
+
+1502306631 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpm.cpp
+	<math.h>
+	"calculadorpm.h"
+	"elementosvoo.h"
+	"../padroes/objstring.h"
+
+1501852359 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\calculadorpm.h
+	"calculador.h"
+	"../padroes/observable.h"
+
+1501270229 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.h
+	<list>
+	"observer.h"
+	"..\padroes\baseobject.h"
+
+1501272795 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.h
+	"observable.h"
+
+1501878816 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.h
+	<string>
+	"baseobject.h"
+
+1501163718 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosfisparo.cpp
+	"elementosdisparo.h"
+
+1501271528 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\calculador\elementosvoo.cpp
+	"elementosvoo.h"
+
+1497992704 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficienteaerodinamico.cpp
+	"coeficienteaerodinamico.h"
+
+1497032501 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientedrag.cpp
+	"CoeficienteDrag.h"
+
+1505335687 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\coeficientes\coeficientesdao.cpp
+	"coeficientesdao.h"
+	"../projetil/projetil.h"
+	"../projetil/projetilDAO.h"
+	<stdio.h>
+	<stdlib.h>
+
+1501276944 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.h
+	"../sql/sqlite3.h"
+	"../Projetil/projetil.h"
+
+1502306680 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\main.cpp
+	<iomanip>
+	<iostream>
+	<thread>
+	"calculador/calculador.h"
+	"calculador/calculadorpm.h"
+	"coeficientes/coeficientesdao.h"
+	"coeficientes/coeficienteDrag.h"
+	"Projetil/projetilDAO.h"
+	"screenprinter.h"
+	"sqlite3.h"
+
+1501264853 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\screenprinter.h
+	"./padroes/observer.h"
+
+1495772122 c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sqlite3.h
+	<stdarg.h>
+
+1501878668 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\objstring.cpp
+	"objstring.h"
+
+1500312640 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observable.cpp
+	"Observable.h"
+
+1501273827 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\padroes\observer.cpp
+	"observer.h"
+	"observable.h"
+
+1501275224 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetil.cpp
+	"projetil.h"
+
+1505335687 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\projetil\projetildao.cpp
+	<stdlib.h>
+	<stdio.h>
+	<iostream>
+	"ProjetilDAO.h"
+
+1502304878 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\screenprinter.cpp
+	<iomanip>
+	<iostream>
+	"screenprinter.h"
+	"./calculador/elementosvoo.h"
+	"./calculador/elementosdisparo.h"
+	"./padroes/objstring.h"
+
+1495772122 source:c:\users\fmce718\workspace\ballistickernelcpp\calculadornumerico\sql\sqlite3.c
+	<vxWorks.h>
+	<pthread.h>
+	"mingw.h"
+	"_mingw.h"
+	<stdarg.h>
+	"config.h"
+	<stdint.h>
+	<inttypes.h>
+	<intrin.h>
+	<cmnintrin.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stddef.h>
+	<TargetConditionals.h>
+	<ctype.h>
+	<time.h>
+	<sys/sysctl.h>
+	<malloc/malloc.h>
+	<libkern/OSAtomic.h>
+	<malloc.h>
+	<pthread.h>
+	"windows.h"
+	<sys/cygwin.h>
+	<errno.h>
+	<process.h>
+	<math.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	<sys/time.h>
+	<errno.h>
+	<sys/mman.h>
+	<sys/ioctl.h>
+	<sys/file.h>
+	<sys/param.h>
+	<semaphore.h>
+	<limits.h>
+	<sys/mount.h>
+	<utime.h>
+	<sys/dcmd_blk.h>
+	<sys/statvfs.h>
+	<dlfcn.h>
+	"sqlite_tcl.h"
+	"tcl.h"
+	"sqlite3rtree.h"
+	<unicode/utypes.h>
+	<unicode/uregex.h>
+	<unicode/ustring.h>
+	<unicode/ucol.h>
+	<unicode/ubrk.h>
+	<unicode/utf16.h>
+	<ctype.h>
+	<math.h>
+

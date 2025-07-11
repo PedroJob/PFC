@@ -2,7 +2,6 @@
 
 import pandas as pd
 import numpy as np
-import os
 from pathlib import Path
 
 CHARGE_VELOCITIES = {
@@ -31,59 +30,40 @@ def mil_to_degrees(mil_value):
         return np.nan
     return mil_value * 0.05729578
 
-def extract_charge_data(file_path, charge_name):
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
+def process_csv_file(file_path):
+    df = pd.read_csv(file_path)
     
-    charge_start = None
-    for i, line in enumerate(lines):
-        if f"Carga {charge_name}" in line or charge_name in line:
-            charge_start = i
-            break
+    # Skip rows that don't have valid data
+    df = df.dropna(subset=[df.columns[1], df.columns[2], df.columns[3]], how='all')
     
-    if charge_start is None:
-        print(f"Warning: Charge {charge_name} not found in {file_path}")
-        return pd.DataFrame()
-    
-    header_line = None
-    for i in range(charge_start, min(charge_start + 10, len(lines))):
-        if "RANGE (M)" in lines[i]:
-            header_line = i
-            break
-    
-    if header_line is None:
-        print(f"Warning: Header not found for charge {charge_name}")
-        return pd.DataFrame()
-    
+    # Extract the 4 columns we need
     data_rows = []
-    seen_ranges = set()
     
-    for i in range(header_line + 1, len(lines)):
-        line = lines[i].strip()
-        if not line or line.count(',') < 3:
-            break
-        if any(f"Carga {charge}" in line for charge in CHARGE_VELOCITIES.keys() if charge != charge_name):
-            break
+    for _, row in df.iterrows():
+        charge = row.iloc[1] if len(row) > 1 else None
+        range_val = row.iloc[2] if len(row) > 2 else None
+        elevation_val = row.iloc[3] if len(row) > 3 else None
+        drift_val = row.iloc[4] if len(row) > 4 else None
         
-        parts = [part.strip() for part in line.split(',')]
-        if len(parts) >= 8 and parts[1]:
-            try:
-                range_val = parse_decimal_with_comma(parts[1])
-                elev_val = parse_decimal_with_comma(parts[2])
-                drift_val = parse_decimal_with_comma(parts[7]) if len(parts) > 7 and parts[7] else np.nan
-                
-                if not pd.isna(range_val) and not pd.isna(elev_val):
-                    key = (range_val, elev_val)
-                    if key not in seen_ranges:
-                        seen_ranges.add(key)
-                        data_rows.append({
-                            'charge': charge_name,
-                            'range_m': range_val,
-                            'elevation_mil': elev_val,
-                            'drift_mil': drift_val
-                        })
-            except (ValueError, IndexError):
-                continue
+        # Skip header rows and invalid data
+        if pd.isna(charge) or charge in ['Charge', 'RANGE (M)', 0]:
+            continue
+            
+        # Parse values
+        try:
+            range_m = parse_decimal_with_comma(range_val)
+            elevation_mil = parse_decimal_with_comma(elevation_val)
+            drift_mil = parse_decimal_with_comma(drift_val)
+            
+            if not pd.isna(range_m) and not pd.isna(elevation_mil) and range_m > 0:
+                data_rows.append({
+                    'charge': str(charge),
+                    'range_m': range_m,
+                    'elevation_mil': elevation_mil,
+                    'drift_mil': drift_mil
+                })
+        except:
+            continue
     
     return pd.DataFrame(data_rows)
 
@@ -103,12 +83,10 @@ def convert_fire_tables(input_dir, output_dir):
     
     for csv_file in csv_files:
         print(f"Processing {csv_file.name}...")
-        
-        for charge_name in CHARGE_VELOCITIES.keys():
-            charge_data = extract_charge_data(csv_file, charge_name)
-            if not charge_data.empty:
-                all_data.append(charge_data)
-                print(f"  Found {len(charge_data)} data points for {charge_name}")
+        file_data = process_csv_file(csv_file)
+        if not file_data.empty:
+            all_data.append(file_data)
+            print(f"  Found {len(file_data)} data points")
     
     if not all_data:
         print("No data extracted from files")
@@ -116,31 +94,38 @@ def convert_fire_tables(input_dir, output_dir):
     
     combined_data = pd.concat(all_data, ignore_index=True)
     
+    # Convert charge to velocity
     combined_data['velocity_ms'] = combined_data['charge'].map(CHARGE_VELOCITIES)
+    
+    # Convert mils to degrees
     combined_data['elevation_deg'] = combined_data['elevation_mil'].apply(mil_to_degrees)
     combined_data['drift_deg'] = combined_data['drift_mil'].apply(mil_to_degrees)
     
+    # Create final table with 4 columns
     standardized_table = combined_data[[
         'velocity_ms', 'range_m', 'elevation_deg', 'drift_deg'
     ]].copy()
     
-    standardized_table.columns = ['velocity_ms', 'range_m', 'elevation_deg', 'drift_deg']
+    # Remove rows with missing velocity (unknown charges)
+    standardized_table = standardized_table.dropna(subset=['velocity_ms'])
     
+    # Sort and clean
     standardized_table = standardized_table.sort_values(['velocity_ms', 'range_m'])
-    standardized_table = standardized_table.dropna(subset=['velocity_ms', 'range_m', 'elevation_deg'])
+    standardized_table = standardized_table.drop_duplicates()
     
     output_file = output_path / "standardized_fire_tables.csv"
-    standardized_table.to_csv(output_file, index=False, float_format='%.6f')
+    standardized_table.to_csv(output_file, index=False)
     
     print(f"\nConversion complete!")
     print(f"Total data points: {len(standardized_table)}")
     print(f"Output saved to: {output_file}")
     
-    print("\nSummary by charge type:")
-    for charge, velocity in CHARGE_VELOCITIES.items():
-        count = len(combined_data[combined_data['charge'] == charge])
-        if count > 0:
-            print(f"  {charge} ({velocity} m/s): {count} data points")
+    # Summary by velocity
+    print("\nSummary by velocity:")
+    for velocity in sorted(standardized_table['velocity_ms'].unique()):
+        count = len(standardized_table[standardized_table['velocity_ms'] == velocity])
+        charge = [k for k, v in CHARGE_VELOCITIES.items() if v == velocity][0] if velocity in CHARGE_VELOCITIES.values() else 'Unknown'
+        print(f"  {charge} ({velocity} m/s): {count} data points")
     
     return standardized_table
 
@@ -161,8 +146,6 @@ def main():
     if result is not None:
         print("\nFirst few rows of converted data:")
         print(result.head(10).to_string(index=False))
-        print(f"\nLast few rows of converted data:")
-        print(result.tail(5).to_string(index=False))
 
 if __name__ == "__main__":
     main()

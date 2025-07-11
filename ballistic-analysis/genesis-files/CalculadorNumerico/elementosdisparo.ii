@@ -1,0 +1,59 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosdisparo.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosdisparo.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosdisparo.h" 1
+
+
+# 1 "C:/PFC 2021/ballisticKernelCpp/CalculadorNumerico/padroes/baseobject.h" 1
+
+
+
+
+class BaseObject
+{
+    public:
+        virtual ~BaseObject() {}
+};
+# 4 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosdisparo.h" 2
+
+
+class ElementosDisparo: public BaseObject
+{
+    public:
+        ElementosDisparo();
+        ElementosDisparo(double elevacao, double correcaoDeriva, bool sucesso = true);
+        double getContraderivacao(){return correcaoDeriva;}
+        double getElevacao(){return elevacao;}
+        bool getSucesso(){return sucesso;}
+        void setElementosDisparo(double elevacao, double correcaoDeriva, bool sucesso);
+    protected:
+    private:
+        bool sucesso;
+        double elevacao;
+        double correcaoDeriva;
+
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\calculador\\elementosdisparo.cpp" 2
+
+ElementosDisparo::ElementosDisparo()
+{
+    correcaoDeriva = 0.0;
+    elevacao = 0.0;
+    sucesso = true;
+}
+
+ElementosDisparo::ElementosDisparo(double elevacao, double correcaoDeriva, bool sucesso)
+{
+    this->correcaoDeriva = correcaoDeriva;
+    this->elevacao = elevacao;
+    this->sucesso = sucesso;
+}
+
+void ElementosDisparo::setElementosDisparo(double elevacao, double correcaoDeriva, bool sucesso)
+{
+    this->correcaoDeriva = correcaoDeriva;
+    this->elevacao = elevacao;
+    this->sucesso = sucesso;
+}

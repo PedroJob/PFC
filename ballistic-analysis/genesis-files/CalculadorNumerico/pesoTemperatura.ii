@@ -1,0 +1,26 @@
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperatura.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperatura.cpp"
+# 1 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperatura.h" 1
+
+
+
+
+class PesoTemperatura
+{
+    public:
+        PesoTemperatura();
+        virtual double getPesoTemperatura(double altura)=0;
+
+    protected:
+
+    private:
+};
+# 2 "C:\\PFC 2021\\ballisticKernelCpp\\CalculadorNumerico\\atmosfera\\pesoTemperatura\\pesoTemperatura.cpp" 2
+
+PesoTemperatura::PesoTemperatura()
+{
+
+}
