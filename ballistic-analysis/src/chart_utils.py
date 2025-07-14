@@ -8,8 +8,7 @@ from typing import List, Dict, Tuple, Optional
 import math
 from dataclasses import dataclass
 
-# Assumindo que a classe BallisticSimulation já foi importada
-# from ballistic_simulation import BallisticSimulation
+from ballistic_simulation import BallisticSimulation
 
 @dataclass
 class TrajectoryComparison:
@@ -51,16 +50,8 @@ class ChartUtils:
             'axes.grid': True
         })
     
-    def _degrees_to_mils(self, degrees: float) -> float:
-        """Converte graus para milésimos"""
-        return degrees * 1000 * 60 / 180
-    
-    def _mils_to_degrees(self, mils: float) -> float:
-        """Converte milésimos para graus"""
-        return mils * 180 / (1000 * 60)
-    
     def _calculate_trajectory_points(self, ballistic_sim: 'BallisticSimulation', 
-                                   velocity: float, elevation_deg: float,
+                                   velocity: float, elevation_rad: float,
                                    num_points: int = 100) -> Tuple[np.ndarray, np.ndarray]:
         """
         Calcula pontos da trajetória para plotagem da parábola
@@ -68,16 +59,14 @@ class ChartUtils:
         Args:
             ballistic_sim: Instância da simulação balística
             velocity: Velocidade inicial (m/s)
-            elevation_deg: Elevação em graus
+            elevation_rad: Elevação em radianos
             num_points: Número de pontos para a curva
             
         Returns:
             Tupla (x_coords, z_coords) com coordenadas da trajetória
         """
-        elevation_rad = math.radians(elevation_deg)
-        
         try:
-            # Simula trajetória completa
+            # Simula trajetória completa (elevation_rad já está em radianos)
             result = ballistic_sim.simulate_trajectory(velocity, elevation_rad)
             
             if result['success']:
@@ -107,7 +96,7 @@ class ChartUtils:
         
         Args:
             ballistic_sim: Instância da simulação balística
-            firing_table_df: DataFrame com colunas [velocity_ms, range_m, elevation_deg, drift_deg]
+            firing_table_df: DataFrame com colunas [velocity_ms, range_m, elevation_mils, drift_mils]
             velocity_filter: Filtrar por velocidade específica (opcional)
             max_trajectories: Número máximo de trajetórias a plotar
             
@@ -145,12 +134,13 @@ class ChartUtils:
         # 1. GRÁFICO PRINCIPAL: Trajetórias parabólicas
         for idx, (_, row) in enumerate(df_filtered.iterrows()):
             velocity = row['velocity_ms']
-            elevation = row['elevation_deg']
+            elevation_mils = row['elevation_mils']  # Já em mils
             table_range = row['range_m']
             
-            # Calcular trajetória MPM
+            # Calcular trajetória MPM (convertendo mils para radianos)
+            elevation_rad = elevation_mils / 1000.0  # mils para radianos
             x_traj, z_traj = self._calculate_trajectory_points(
-                ballistic_sim, velocity, elevation
+                ballistic_sim, velocity, elevation_rad
             )
             
             if len(x_traj) > 0:
@@ -159,7 +149,7 @@ class ChartUtils:
                 # Plotar trajetória MPM
                 ax1.plot(x_traj/1000, z_traj/1000, 
                         color=color, linewidth=2, alpha=0.8,
-                        label=f'MPM - V₀={velocity:.0f}m/s, QE={elevation:.1f}°')
+                        label=f'MPM - V₀={velocity:.0f}m/s, QE={elevation_rad:.1f}°')
                 
                 # Marcar ponto de impacto da tabela
                 ax1.scatter(table_range/1000, 0, 
@@ -168,13 +158,13 @@ class ChartUtils:
                 
                 # Armazenar resultado MPM
                 mpm_range, mmp_drift = ballistic_sim.calculate_range_for_elevation(
-                    self._degrees_to_mils(elevation), velocity
+                    self._degrees_to_mils(elevation_rad), velocity
                 )
                 
-                mmp_results['ranges'].append(mmp_range)
-                mmp_results['drifts'].append(mmp_drift)
-                mmp_results['elevations'].append(elevation)
-                mmp_results['velocities'].append(velocity)
+                mpm_results['ranges'].append(mpm_range)
+                mpm_results['drifts'].append(mmp_drift)
+                mpm_results['elevations'].append(elevation_rad)
+                mpm_results['velocities'].append(velocity)
         
         ax1.set_xlabel('Alcance (km)')
         ax1.set_ylabel('Altitude (km)')
@@ -232,7 +222,7 @@ class ChartUtils:
             'range_mae': np.mean(np.abs(mpm_ranges - table_ranges)),
             'range_mape': np.mean(np.abs((mpm_ranges - table_ranges) / table_ranges)) * 100,
             'drift_rmse': np.sqrt(np.mean((mpm_drifts - table_drifts)**2)) if len(table_drifts) > 0 else 0,
-            'drift_mae': np.mean(np.abs(mmp_drifts - table_drifts)) if len(table_drifts) > 0 else 0
+            'drift_mae': np.mean(np.abs(mpm_drifts - table_drifts)) if len(table_drifts) > 0 else 0
         }
         
         # Adicionar caixa de texto com estatísticas
@@ -333,15 +323,16 @@ class ChartUtils:
             ballistic_sim.update_fitting_factors(form_factor=i_factor)
             
             for idx, (_, row) in enumerate(df_filtered.iterrows()):
-                elevation = row['elevation_deg']
+                elevation_mils = row['elevation_mils']  # Já em mils
+                elevation_rad = elevation_mils / 1000.0  # Converter para radianos
                 x_traj, z_traj = self._calculate_trajectory_points(
-                    ballistic_sim, velocity, elevation, num_points=50
+                    ballistic_sim, velocity, elevation_rad, num_points=50
                 )
                 
                 if len(x_traj) > 0:
                     ax1.plot(x_traj/1000, z_traj/1000, 
                             linewidth=2, alpha=0.8,
-                            label=f'i={i_factor}, QE={elevation:.1f}°')
+                            label=f'i={i_factor}, QE={elevation_mils:.0f} mils')
         
         ax1.set_xlabel('Alcance (km)')
         ax1.set_ylabel('Altitude (km)')
@@ -355,13 +346,13 @@ class ChartUtils:
         for fL_factor in lift_factors:
             ballistic_sim.update_fitting_factors(lift_factor=fL_factor)
             
-            elevations = df_filtered['elevation_deg'].values
+            elevations_mils = df_filtered['elevation_mils'].values  # Já em mils
             ranges = []
             drifts = []
             
-            for elevation in elevations:
+            for elevation_mils in elevations_mils:
                 range_calc, drift_calc = ballistic_sim.calculate_range_for_elevation(
-                    self._degrees_to_mils(elevation), velocity
+                    elevation_mils, velocity  # elevation_mils já está em mils
                 )
                 ranges.append(range_calc/1000)
                 drifts.append(drift_calc)
@@ -371,12 +362,12 @@ class ChartUtils:
         
         # Plotar dados da tabela para comparação
         table_ranges = df_filtered['range_m'].values / 1000
-        table_drifts = df_filtered['drift_deg'].values
+        table_drifts = df_filtered['drift_mils'].values  # Já em mils
         ax2.plot(table_ranges, table_drifts, 's-', linewidth=3, 
                 markersize=10, color='red', alpha=0.8, label='Tabela de Tiro')
         
         ax2.set_xlabel('Alcance (km)')
-        ax2.set_ylabel('Deriva (°)')
+        ax2.set_ylabel('Deriva (mils)')
         ax2.set_title('Efeito do Fator de Sustentação (fL)')
         ax2.legend()
         ax2.grid(True, alpha=0.3)

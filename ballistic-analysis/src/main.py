@@ -32,8 +32,8 @@ def load_fire_table_data(file_path: str) -> pd.DataFrame:
         print(f"✓ Arquivo carregado com sucesso: {len(df)} registros")
         print(f"✓ Colunas disponíveis: {list(df.columns)}")
         
-        # Validar colunas necessárias
-        required_columns = ['velocity_ms', 'range_m', 'elevation_deg', 'drift_deg']
+        # Validar colunas necessárias (agora em mils)
+        required_columns = ['velocity_ms', 'range_m', 'elevation_mils', 'drift_mils']
         missing_columns = [col for col in required_columns if col not in df.columns]
         
         if missing_columns:
@@ -44,12 +44,14 @@ def load_fire_table_data(file_path: str) -> pd.DataFrame:
                 'muzzle_velocity': 'velocity_ms',
                 'range': 'range_m',
                 'distance': 'range_m',
-                'elevation': 'elevation_deg',
-                'elev': 'elevation_deg',
-                'qe': 'elevation_deg',
-                'drift': 'drift_deg',
-                'deflection': 'drift_deg',
-                'drift_corr': 'drift_deg'
+                'elevation': 'elevation_mils',
+                'elev': 'elevation_mils',
+                'qe': 'elevation_mils',
+                'elevation_deg': 'elevation_mils',  # Se ainda houver referência em graus
+                'drift': 'drift_mils',
+                'deflection': 'drift_mils',
+                'drift_corr': 'drift_mils',
+                'drift_deg': 'drift_mils'  # Se ainda houver referência em graus
             }
             
             for orig_col in df.columns:
@@ -72,8 +74,8 @@ def load_fire_table_data(file_path: str) -> pd.DataFrame:
         df_clean = df_clean[
             (df_clean['velocity_ms'] > 0) & 
             (df_clean['range_m'] > 0) & 
-            (df_clean['elevation_deg'] >= 0) &
-            (df_clean['elevation_deg'] <= 90)
+            (df_clean['elevation_mils'] >= 0) &
+            (df_clean['elevation_mils'] <= 1600)  # ~90° em mils
         ]
         
         print(f"✓ Dados limpos: {len(df_clean)} registros válidos ({initial_count - len(df_clean)} removidos)")
@@ -82,8 +84,8 @@ def load_fire_table_data(file_path: str) -> pd.DataFrame:
         print("\n📊 Estatísticas dos dados:")
         print(f"  Velocidade: {df_clean['velocity_ms'].min():.0f} - {df_clean['velocity_ms'].max():.0f} m/s")
         print(f"  Alcance: {df_clean['range_m'].min():.0f} - {df_clean['range_m'].max():.0f} m")
-        print(f"  Elevação: {df_clean['elevation_deg'].min():.2f} - {df_clean['elevation_deg'].max():.2f}°")
-        print(f"  Deriva: {df_clean['drift_deg'].min():.4f} - {df_clean['drift_deg'].max():.4f}°")
+        print(f"  Elevação: {df_clean['elevation_mils'].min():.1f} - {df_clean['elevation_mils'].max():.1f} mils")
+        print(f"  Deriva: {df_clean['drift_mils'].min():.4f} - {df_clean['drift_mils'].max():.4f} mils")
         
         return df_clean
         
@@ -143,17 +145,17 @@ def analyze_velocity_groups(df: pd.DataFrame) -> dict:
             'count': len(group_data),
             'min_range': group_data['range_m'].min(),
             'max_range': group_data['range_m'].max(),
-            'elevation_range': (group_data['elevation_deg'].min(), group_data['elevation_deg'].max())
+            'elevation_range': (group_data['elevation_mils'].min(), group_data['elevation_mils'].max())
         }
         
         print(f"  V₀={vel:.0f} m/s: {len(group_data)} pontos, "
               f"alcance {group_data['range_m'].min()/1000:.1f}-{group_data['range_m'].max()/1000:.1f}km, "
-              f"elevação {group_data['elevation_deg'].min():.1f}-{group_data['elevation_deg'].max():.1f}°")
+              f"elevação {group_data['elevation_mils'].min():.0f}-{group_data['elevation_mils'].max():.0f} mils")
     
     return velocity_groups
 
 def generate_comprehensive_analysis(ballistic_sim, df: pd.DataFrame, chart_utils: 'ChartUtils', 
-                                  output_dir: str = "ballistic-analysis/output"):
+                                  output_dir: str = "/Users/pedrojob/Desktop/PFC/ballistic-analysis/src/output"):
     """
     Gera análise completa com múltiplas comparações
     """
@@ -281,19 +283,19 @@ def main():
         # 4. ANÁLISE RÁPIDA INICIAL
         print("\n🔍 Teste rápido do modelo...")
         test_velocity = df['velocity_ms'].iloc[0]
-        test_elevation = df['elevation_deg'].iloc[0]
+        test_elevation = df['elevation_mils'].iloc[0]
         
         range_calc, drift_calc = ballistic_sim.calculate_range_for_elevation(
-            test_elevation * 1000 * 60 / 180,  # Converter para mils
+            test_elevation,  # Já está em mils, não precisa converter
             test_velocity
         )
         
         expected_range = df['range_m'].iloc[0]
-        expected_drift = df['drift_deg'].iloc[0]
+        expected_drift = df['drift_mils'].iloc[0]
         
-        print(f"✓ Teste: V₀={test_velocity}m/s, QE={test_elevation}°")
+        print(f"✓ Teste: V₀={test_velocity}m/s, QE={test_elevation:.0f} mils")
         print(f"  Alcance - Esperado: {expected_range:.0f}m, Calculado: {range_calc:.0f}m")
-        print(f"  Deriva - Esperada: {expected_drift:.4f}°, Calculada: {drift_calc:.4f}°")
+        print(f"  Deriva - Esperada: {expected_drift:.4f} mils, Calculada: {drift_calc:.4f} mils")
         print(f"  Erro de alcance: {abs(range_calc - expected_range)/expected_range*100:.1f}%")
         
         # 5. ANÁLISE COMPLETA
@@ -306,7 +308,7 @@ def main():
         print(f"✓ Dados processados: {len(df)} registros")
         print(f"✓ Velocidades analisadas: {len(df['velocity_ms'].unique())}")
         print(f"✓ Faixa de alcance: {df['range_m'].min()/1000:.1f} - {df['range_m'].max()/1000:.1f} km")
-        print(f"✓ Faixa de elevação: {df['elevation_deg'].min():.1f} - {df['elevation_deg'].max():.1f}°")
+        print(f"✓ Faixa de elevação: {df['elevation_mils'].min():.0f} - {df['elevation_mils'].max():.0f} mils")
         print(f"✓ Gráficos salvos em: {output_dir}")
         
         print("\n🎯 PRÓXIMOS PASSOS SUGERIDOS:")
