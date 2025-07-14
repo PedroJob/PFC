@@ -44,11 +44,10 @@ def main():
     
     try:
         df_original = load_fire_tables()
-        df_unified = create_unified_dataset(df_original)
-        train_df, test_df = split_dataset(df_unified, test_size=0.2, random_state=42)
-        export_datasets(train_df, test_df, df_unified, output_dir)
+        train_df, test_df = split_dataset(df_original, test_size=0.2, random_state=42)
+        export_datasets(train_df, test_df, df_original, output_dir)
         
-        print(f"Unified dataset: {len(df_unified)} samples")
+        print(f"Unified dataset: {len(df_original)} samples")
         print(f"Training set: {len(train_df)} samples (80%)")
         print(f"Test set: {len(test_df)} samples (20%)")
         

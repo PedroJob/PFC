@@ -25,11 +25,6 @@ def parse_decimal_with_comma(value):
     except (ValueError, TypeError):
         return np.nan
 
-def mil_to_degrees(mil_value):
-    if pd.isna(mil_value):
-        return np.nan
-    return mil_value * 0.05729578
-
 def process_csv_file(file_path):
     df = pd.read_csv(file_path)
     
@@ -96,14 +91,10 @@ def convert_fire_tables(input_dir, output_dir):
     
     # Convert charge to velocity
     combined_data['velocity_ms'] = combined_data['charge'].map(CHARGE_VELOCITIES)
-    
-    # Convert mils to degrees
-    combined_data['elevation_deg'] = combined_data['elevation_mil'].apply(mil_to_degrees)
-    combined_data['drift_deg'] = combined_data['drift_mil'].apply(mil_to_degrees)
-    
+        
     # Create final table with 4 columns
     standardized_table = combined_data[[
-        'velocity_ms', 'range_m', 'elevation_deg', 'drift_deg'
+        'velocity_ms', 'range_m', 'elevation_mil', 'drift_mil'
     ]].copy()
     
     # Remove rows with missing velocity (unknown charges)
