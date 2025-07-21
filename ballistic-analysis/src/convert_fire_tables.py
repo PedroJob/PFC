@@ -28,10 +28,8 @@ def parse_decimal_with_comma(value):
 def process_csv_file(file_path):
     df = pd.read_csv(file_path)
     
-    # Skip rows that don't have valid data
     df = df.dropna(subset=[df.columns[1], df.columns[2], df.columns[3]], how='all')
     
-    # Extract the 4 columns we need
     data_rows = []
     
     for _, row in df.iterrows():
@@ -40,11 +38,9 @@ def process_csv_file(file_path):
         elevation_val = row.iloc[3] if len(row) > 3 else None
         drift_val = row.iloc[4] if len(row) > 4 else None
         
-        # Skip header rows and invalid data
         if pd.isna(charge) or charge in ['Charge', 'RANGE (M)', 0]:
             continue
             
-        # Parse values
         try:
             range_m = parse_decimal_with_comma(range_val)
             elevation_mil = parse_decimal_with_comma(elevation_val)
@@ -89,18 +85,14 @@ def convert_fire_tables(input_dir, output_dir):
     
     combined_data = pd.concat(all_data, ignore_index=True)
     
-    # Convert charge to velocity
     combined_data['velocity_ms'] = combined_data['charge'].map(CHARGE_VELOCITIES)
         
-    # Create final table with 4 columns
     standardized_table = combined_data[[
         'velocity_ms', 'range_m', 'elevation_mil', 'drift_mil'
     ]].copy()
     
-    # Remove rows with missing velocity (unknown charges)
     standardized_table = standardized_table.dropna(subset=['velocity_ms'])
     
-    # Sort and clean
     standardized_table = standardized_table.sort_values(['velocity_ms', 'range_m'])
     standardized_table = standardized_table.drop_duplicates()
     
